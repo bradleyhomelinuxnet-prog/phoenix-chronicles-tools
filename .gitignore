@@ -1,0 +1,30 @@
+# macOS / Windows shell noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor scratch
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Don't commit binaries or unpacked third-party source
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.asar
+app-src/
+unpacked/
+resources/
+
+# Word / auto-generated derivatives
+*.docx
+*.pdf.bak
+
+# Local build artifacts
+node_modules/
+dist/
+build/

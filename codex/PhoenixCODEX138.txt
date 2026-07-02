@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bradley Rogue – Portfolio & Archive Hub</title>
+  <meta name="description" content="Bradley Rogue Ventures — Portfolio & Archive Hub. AI, Archaix, Phoenix Codex, Great Pyramid of Giza, Chronicon, and GenAI research.">
+  <meta name="keywords" content="Bradley Rogue, Archaix, Phoenix Codex, 138, Great Pyramid, Chronicon, Jason Breshears, GenAI, simulation theory">
+  <meta name="author" content="Bradley Rogue & The Complete Phoenix Chronicles">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@700;900&family=EB+Garamond:ital,wght@0,400;1,400&family=Philosopher:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=Orbitron:wght@400;500;700&family=Jura:wght@500;700&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ═══════════════════════════════════════════════
+       RESET & BASE
+       ═══════════════════════════════════════════════ */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --gold: #D4A843;
+      --gold-light: #F0D78C;
+      --gold-dim: rgba(212,168,67,0.15);
+      --navy: #0B0E17;
+      --surface: rgba(18,21,33,0.85);
+      --surface-hover: rgba(28,32,50,0.95);
+      --glass: rgba(255,255,255,0.04);
+      --glass-border: rgba(255,255,255,0.08);
+      --text: #E8E8EC;
+      --text-dim: #9599A8;
+      --accent-teal: #3ABFBF;
+      --accent-violet: #8B6FD4;
+      --radius: 16px;
+      --radius-sm: 10px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', 'Philosopher', sans-serif;
+      background: var(--navy);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* Background ambient glow */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -30%;
+      left: -10%;
+      width: 60%;
+      height: 60%;
+      background: radial-gradient(ellipse, rgba(212,168,67,0.04) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      bottom: -20%;
+      right: -10%;
+      width: 50%;
+      height: 50%;
+      background: radial-gradient(ellipse, rgba(58,191,191,0.03) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ═══════════════════════════════════════════════
+       TICKER BAR
+       ═══════════════════════════════════════════════ */
+    .top-ticker-bar {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(11,14,23,0.92);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(212,168,67,0.2);
+      z-index: 9000;
+      padding: 10px 24px;
+    }
+
+    .ticker-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 28px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .time-display-ticker {
+      font-family: 'Orbitron', monospace;
+      font-size: 0.78rem;
+      color: var(--gold);
+      letter-spacing: 1.5px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .weather-display-ticker {
+      display: flex;
+      align-items: center;
+      min-width: 280px;
+    }
+    .weather-display-ticker .weatherwidget-io {
+      text-decoration: none !important;
+      color: var(--gold) !important;
+      display: block !important;
+      pointer-events: none;
+    }
+
+    .moon-phase-ticker {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 50px;
+      height: 50px;
+    }
+
+    .phoenix-counter {
+      font-family: 'Orbitron', monospace;
+      font-size: 0.78rem;
+      color: var(--accent-teal);
+      letter-spacing: 1px;
+    }
+
+    /* ═══════════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════════ */
+    .nav-bar {
+      position: sticky;
+      top: 70px;
+      z-index: 8500;
+      background: rgba(11,14,23,0.8);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--glass-border);
+      padding: 0 24px;
+    }
+
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 0;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 100px;
+      transition: all 0.3s ease;
+    }
+    .nav-link:hover, .nav-link.active {
+      color: var(--gold);
+      background: var(--gold-dim);
+    }
+
+    /* ═══════════════════════════════════════════════
+       LAYOUT
+       ═══════════════════════════════════════════════ */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    section { padding: 80px 0; }
+    section + section { border-top: 1px solid var(--glass-border); }
+
+    /* ═══════════════════════════════════════════════
+       HERO
+       ═══════════════════════════════════════════════ */
+    .hero {
+      text-align: center;
+      padding: 100px 0 60px;
+      position: relative;
+    }
+
+    .pyramid-wrap {
+      margin: 0 auto 32px;
+      width: 100px;
+      height: 100px;
+      position: relative;
+    }
+
+    .pyramid-svg {
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(0 0 40px rgba(212,168,67,0.3));
+    }
+    .pyramid-svg .face-left  { fill: url(#grad-left);  opacity: 0.9; }
+    .pyramid-svg .face-right { fill: url(#grad-right); opacity: 0.75; }
+    .pyramid-svg .face-front { fill: url(#grad-front); }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    .pyramid-wrap { animation: float 6s ease-in-out infinite; }
+
+    .hero h1 {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, #C9963B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .hero-subtitle {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 300;
+      color: var(--text-dim);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .hero-tagline {
+      font-family: 'Philosopher', serif;
+      font-size: 0.95rem;
+      color: var(--accent-teal);
+      font-style: italic;
+      opacity: 0.7;
+    }
+
+    /* ═══════════════════════════════════════════════
+       SECTION HEADINGS
+       ═══════════════════════════════════════════════ */
+    .section-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .section-header h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--text);
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+    .section-header .accent-line {
+      display: block;
+      width: 138px;
+      height: 2px;
+      margin: 12px auto 0;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      border-radius: 2px;
+    }
+    .section-header .section-sub {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      margin-top: 10px;
+      font-weight: 300;
+    }
+
+    /* ═══════════════════════════════════════════════
+       HERO PROJECT CHIPS
+       ═══════════════════════════════════════════════ */
+    .chip-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: 100px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(8px);
+    }
+    .chip:hover {
+      border-color: var(--gold);
+      background: var(--gold-dim);
+      color: var(--gold-light);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(212,168,67,0.12);
+    }
+    .chip-icon { font-size: 1rem; }
+
+    /* Highlighted chip variant for new / featured links */
+    .chip--featured {
+      border-color: rgba(58,191,191,0.4);
+      background: rgba(58,191,191,0.08);
+    }
+    .chip--featured:hover {
+      border-color: var(--accent-teal);
+      background: rgba(58,191,191,0.18);
+      color: #5DD9D9;
+      box-shadow: 0 4px 19px rgba(58,191,191,0.20);
+    }
+
+    /* ═══════════════════════════════════════════════
+       PROJECT CARDS
+       ═══════════════════════════════════════════════ */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: var(--surface);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius);
+      padding: 28px;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    .project-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold), var(--accent-teal));
+      opacity: 0;
+      transition: opacity 0.35s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(212,168,67,0.25);
+      background: var(--surface-hover);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3), 0 0 60px rgba(212,168,67,0.04);
+    }
+    .project-card:hover::before { opacity: 1; }
+
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+    .card-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .card-description {
+      font-size: 0.88rem;
+      color: var(--text-dim);
+      line-height: 1.6;
+      flex-grow: 1;
+    }
+    .card-tag {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 4px 12px;
+      background: var(--gold-dim);
+      border-radius: 100px;
+      font-family: 'Orbitron', monospace;
+      font-size: 0.65rem;
+      font-weight: 500;
+      color: var(--gold);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .card-tag--19 {
+      background: rgba(58,191,191,0.15);
+      color: var(--accent-teal);
+    }
+
+    /* ═══════════════════════════════════════════════
+       GALLERY
+       ═══════════════════════════════════════════════ */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .gallery-item {
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      aspect-ratio: 1;
+      border: 1px solid var(--glass-border);
+      position: relative;
+      cursor: pointer;
+      transition: all 0.35s ease;
+    }
+    .gallery-item:hover {
+      border-color: rgba(212,168,67,0.3);
+      transform: scale(1.02);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .gallery-item:hover img { transform: scale(1.08); }
+
+    .gallery-overlay {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(11,14,23,0.9));
+      padding: 20px 16px 14px;
+      opacity: 0;
+      transition: opacity 0.35s ease;
+    }
+    .gallery-item:hover .gallery-overlay { opacity: 1; }
+
+    .gallery-title {
+      font-family: 'Orbitron', monospace;
+      font-size: 0.72rem;
+      color: var(--gold);
+      letter-spacing: 1px;
+    }
+
+    /* ═══════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════ */
+    footer {
+      text-align: center;
+      padding: 48px 24px;
+      border-top: 1px solid var(--glass-border);
+      position: relative;
+      z-index: 1;
+    }
+    .footer-brand {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      color: var(--gold);
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+    .footer-sub {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      margin-bottom: 16px;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .footer-links a {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .footer-links a:hover { color: var(--gold); }
+
+    /* ═══════════════════════════════════════════════
+       FADE-IN ANIMATION
+       ═══════════════════════════════════════════════ */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ═══════════════════════════════════════════════
+       SCROLLBAR
+       ═══════════════════════════════════════════════ */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--navy); }
+    ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 6px; }
+
+    /* ═══════════════════════════════════════════════
+       RESPONSIVE
+       ═══════════════════════════════════════════════ */
+    @media (max-width: 768px) {
+      .project-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero { padding: 60px 0 40px; }
+      section { padding: 60px 0; }
+      .nav-bar { top: 0; position: relative; }
+      .top-ticker-bar { position: relative; }
+      .ticker-content { gap: 12px; }
+      .chip { font-size: 0.76rem; padding: 8px 14px; }
+    }
+    @media (max-width: 480px) {
+      .gallery-grid { grid-template-columns: 1fr; }
+      .nav-inner { gap: 4px; }
+      .nav-link { padding: 6px 10px; font-size: 0.7rem; }
+    }
+
+    /* ═══════════════════════════════════════════════
+       SUMMON BADGES — popup-pattern AI triggers
+       ═══════════════════════════════════════════════ */
+    .summon-badge {
+      position: fixed;
+      top: 138px;
+      z-index: 9999;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 19px;
+      border: none;
+      border-radius: 100px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 1.9px;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      backdrop-filter: blur(8px);
+      transition: transform 138ms ease, box-shadow 276ms ease, background-position 690ms ease;
+    }
+    .summon-badge:hover { transform: translateY(-2px); }
+    .summon-badge .glyph { font-size: 1.05rem; line-height: 1; }
+
+    .summon-chronicon {
+      left: 19px;
+      font-family: 'Cinzel', serif;
+      background: linear-gradient(135deg, #8a5f16 0%, #e8c45a 50%, #8a5f16 100%);
+      background-size: 220% 100%;
+      background-position: 0% 50%;
+      color: #0a0604;
+      box-shadow: 0 0 0 1px rgba(201,168,76,0.4), 0 4px 19px rgba(201,168,76,0.3);
+    }
+    .summon-chronicon:hover {
+      background-position: 100% 50%;
+      box-shadow: 0 0 0 1px var(--gold), 0 6px 24px rgba(201,168,76,0.55);
+    }
+
+    .summon-genie {
+      right: 19px;
+      font-family: 'Jura', 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0693E3 0%, #9B51E0 100%);
+      background-size: 220% 100%;
+      background-position: 0% 50%;
+      color: #ffffff;
+      box-shadow: 0 0 0 1px rgba(155,81,224,0.45), 0 4px 19px rgba(6,147,227,0.3);
+    }
+    .summon-genie:hover {
+      background-position: 100% 50%;
+      box-shadow: 0 0 0 1px #9B51E0, 0 6px 24px rgba(155,81,224,0.55);
+    }
+
+    @media (max-width: 480px) {
+      .summon-genie { right: auto; left: 19px; top: 195px; }
+    }
+
+    /* ═══════════════════════════════════════════════
+       SACRED-WORD SYNTAX HIGHLIGHTING
+       ═══════════════════════════════════════════════ */
+    .word-chronicon {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      color: var(--gold-light);
+      letter-spacing: 1.38px;
+      text-shadow:
+        0 0 6px  rgba(212,168,67,0.55),
+        0 0 19px rgba(212,168,67,0.19);
+      padding: 0 2px;
+    }
+    .word-phoenix {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      background: linear-gradient(135deg, #FF6B2D 0%, #F7931E 38%, var(--gold-light) 70%, var(--gold) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+      filter: drop-shadow(0 0 8px rgba(247,147,30,0.38));
+      animation: phoenix-flicker 3.8s ease-in-out infinite;
+      padding: 0 1px;
+    }
+    @keyframes phoenix-flicker {
+      0%, 100% { filter: drop-shadow(0 0 8px  rgba(247,147,30,0.38)); }
+      50%      { filter: drop-shadow(0 0 19px rgba(255,107, 45,0.55)); }
+    }
+    .word-nibiru {
+      font-family: 'Orbitron', monospace;
+      font-weight: 700;
+      color: var(--accent-violet);
+      letter-spacing: 1.9px;
+      text-shadow:
+        0 0 6px  rgba(139,111,212,0.55),
+        0 0 13px rgba(58,191,191,0.38);
+      padding: 0 2px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .word-phoenix { animation: none; }
+    }
+
+    /* ═══════════════════════════════════════════════
+       SOFT-PULSE NAV CTA
+       ═══════════════════════════════════════════════ */
+    @keyframes pulse-soft {
+      0%, 100% { opacity: 1;    }
+      50%      { opacity: 0.38; }
+    }
+    .nav-link--blink {
+      animation: pulse-soft 1.9s ease-in-out infinite;
+      color: var(--gold-light) !important;
+      font-weight: 700;
+      text-shadow: 0 0 8px rgba(212,168,67,0.25);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .nav-link--blink { animation: none; opacity: 1; }
+    }
+
+    /* ═══════════════════════════════════════════════
+       CHATBASE CTA — Ask AI nav button
+       ═══════════════════════════════════════════════ */
+    .nav-link--chat {
+      background: linear-gradient(135deg, var(--gold), #C9963B);
+      color: var(--navy) !important;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+      font-family: 'Orbitron', monospace;
+      letter-spacing: 1.5px;
+    }
+    .nav-link--chat:hover {
+      background: linear-gradient(135deg, var(--gold-light), var(--gold));
+      transform: translateY(-1px);
+      box-shadow: 0 4px 19px rgba(212,168,67,0.3);
+    }
+
+    /* New: 13th Moon nav link — teal accent so it stands apart from gold */
+    .nav-link--moon {
+      color: var(--accent-teal) !important;
+      border: 1px solid rgba(58,191,191,0.3);
+      font-weight: 700;
+    }
+    .nav-link--moon:hover {
+      background: rgba(58,191,191,0.12);
+      border-color: var(--accent-teal);
+      color: #5DD9D9 !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════
+       TICKER BAR
+       ═══════════════════════════════════════════════ -->
+  <div class="top-ticker-bar">
+    <div class="ticker-content">
+
+      <!-- Cairo Clock -->
+      <div class="time-display-ticker">
+        <span>&#x1F4CD; Cairo</span>
+        <span id="time">--:--:-- --</span>
+      </div>
+
+      <!-- Giza Weather Widget -->
+      <div class="weather-display-ticker">
+        <a class="weatherwidget-io"
+           href="https://forecast7.com/en/30d04n31d24/cairo/"
+           data-label_1="GIZA"
+           data-label_2="Weather"
+           data-font="Orbitron"
+           data-icons="Climacons Animated"
+           data-theme="dark"
+           data-basecolor="rgba(0,0,0,0)"
+           data-textcolor="#D4A843"
+           data-lowcolor="#D4A843"
+           data-highcolor="#D4A843"
+           data-suncolor="#D4A843"
+           data-mooncolor="#9599A8"
+           data-cloudcolor="#9599A8"
+           data-cloudfill="#9599A8"
+           data-raincolor="#3ABFBF"
+           data-snowcolor="#E8E8EC"
+           data-unit="us">GIZA WEATHER</a>
+      </div>
+
+      <!-- Moon Phase Widget -->
+      <div class="moon-phase-ticker" id="moonWidget">
+        <span id="moonFallback" style="font-size:1.6rem;" title="Moon phase loading...">&#x1F311;</span>
+      </div>
+
+      <!-- Phoenix 138 Countdown -->
+      <div class="phoenix-counter">
+        <span id="phoenix138">&#x1F525; Phoenix 2040: loading...</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════════ -->
+  <nav class="nav-bar">
+    <div class="nav-inner">
+      <a href="#prompt-engineering" class="nav-link">Prompt Engineering</a>
+      <button class="nav-link nav-link--chat" onclick="openChatbase()">&#x1F4AC; Ask AI</button>
+      <a href="#genai-ops" class="nav-link">GenAI Ops</a>
+      <a href="#legacy" class="nav-link">Archives</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+
+      <!-- ✦ NEW ✦ 13th Moon Magazine — quick-access nav link -->
+      <a href="https://13th-moon-codex-e3lhxsto.blinkpowered.com/" class="nav-link nav-link--moon" target="_blank" rel="noopener">&#x1F319; 13th Moon Magazine</a>
+
+      <a href="https://linkedin.com/in/bradleyrogue" class="nav-link" target="_blank">LinkedIn</a>
+      <a href="https://pyramid-egypt-book-8.deploypad.app/" class="nav-link nav-link--blink" target="_blank">Coolest Thing I've ever created &amp; built for a client: FULL-STACK ARCHAIX SITE -- PROTOCOL; THE 138TH PROTOCOL</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════
+       SUMMON BADGES — popup triggers
+       ═══════════════════════════════════════════════ -->
+  <button class="summon-badge summon-chronicon" type="button" onclick="openChroniconBot()">
+    <span class="glyph">𓀀</span> CALL Pharoah
+  </button>
+  <button class="summon-badge summon-genie" type="button" onclick="openGenieBot()">
+    <span class="glyph">✦</span> CALL Genieai
+  </button>
+
+  <div class="container">
+
+    <!-- ═══════════════════════════════════════════════
+         HERO
+         ═══════════════════════════════════════════════ -->
+    <header class="hero">
+      <div class="pyramid-wrap">
+        <svg class="pyramid-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad-front" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#F0D78C;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#C9963B;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="grad-left" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#D4A843;stop-opacity:0.8" />
+              <stop offset="100%" style="stop-color:#8B6914;stop-opacity:0.9" />
+            </linearGradient>
+            <linearGradient id="grad-right" x1="100%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#B8922E;stop-opacity:0.7" />
+              <stop offset="100%" style="stop-color:#6B5010;stop-opacity:0.85" />
+            </linearGradient>
+          </defs>
+          <polygon class="face-front" points="50,10 75,85 25,85" />
+          <polygon class="face-left"  points="50,10 25,85 10,70" />
+          <polygon class="face-right" points="50,10 75,85 90,70" />
+        </svg>
+      </div>
+      <h1>Bradley Rogue Ventures</h1>
+      <p class="hero-subtitle">Portfolio &amp; Archive Hub</p>
+      <p class="hero-tagline">AI Evaluator &middot; Reverse Prompt Engineer &middot; GenAI Operations &middot; Multimodal Annotation</p>
+    </header>
+
+    <!-- ═══════════════════════════════════════════════
+         QUICK-LINK CHIPS
+         (cleaned up from original — removed stray fragments
+         and added 3 new chips: AnuBus, ARCHAIX Funnel, Blink)
+         ═══════════════════════════════════════════════ -->
+    <div class="chip-grid fade-in">
+
+      <!-- ✦ NEW ✦ Featured: Livvy Li's Little Ladies Records - Vinyl & Piano App -->
+      <a href="https://livvy-li-s-little-ladies-records-776348224520.us-west1.run.app/" class="chip chip--featured" target="_blank" rel="noopener">
+        <span class="chip-icon">&#x1F319;</span> Livvy Li's Little Ladies Records - Vinyl & Piano App
+      </a>
+
+      <!-- ✦ NEW ✦ Featured: The Phoenix CODEX 138 Palindromic Structure Version 1.9.138 -->
+      <a href="https://hollywood-rogue-ai-ventures.w3spaces.com/a-phoenix-traveler-cosmos.html" class="chip chip--featured" target="_blank" rel="noopener">
+        <span class="chip-icon">&#x1F319;</span> 138 PALINDROMIC MIRROR EDITION THE PHOENIX CODEX: a recursive novel that mirrors itself around its own center
+      </a>
+
+      <!-- ✦ NEW ✦ Featured: 13th Moon Magazine -->
+      <a href="https://13th-moon-codex-e3lhxsto.blinkpowered.com/" class="chip chip--featured" target="_blank" rel="noopener">
+        <span class="chip-icon">&#x1F319;</span> 13th Moon Magazine — Metonic Cycle &middot; 19-Year Lunisolar Folio
+      </a>
+
+      <!-- ✦ NEW ✦ Featured: AnuBus Tours -->
+      <a href="https://egypt-pyramid-explore.deploypad.app/" class="chip chip--featured" target="_blank" rel="noopener">
+        <span class="chip-icon">&#x1F42B;</span> AnuBus Tours — Egypt &amp; Pyramid Explorer (Site Example)
+      </a>
+
+      <!-- ✦ NEW ✦ Featured: ARCHAIX Blink Funnel -->
+      <a href="https://pyramid-book-clone-gbh540st.blinkpowered.com/#videos" class="chip chip--featured" target="_blank" rel="noopener">
+        <span class="chip-icon">&#x1F3AC;</span> Blink ARCHAIX Funnel Sample &middot; Video Funnel Demo
+      </a>
+
+      <a href="https://pyramid-egypt-book-6.deploypad.app/" class="chip" target="_blank" rel="noopener">
+        <span class="chip-icon">&#9203;</span> ARCHAIX.com (client) Full-Stack Tech Site Prototype on Famous.ai Platform
+      </a>
+
+      <a href="https://www.youtube.com/@SuperCoolStuffYouTube" class="chip" target="_blank" rel="noopener">
+        <span class="chip-icon">&#9203;</span> Super Cool Stuff YouTube Channel — 9K Subs in 2 Months &middot; 100K+ Views
+      </a>
+
+      <a href="https://hollywood-rogue-ai-ventures.w3spaces.com/archaix-test-site.html" class="chip">
+        <span class="chip-icon">&#9203;</span> Chronicon Bot — Talking Book Repo of Curated Knowledge
+      </a>
+
+      <a href="pyramid-video-rubric-annotation-etc-example.html" class="chip">
+        <span class="chip-icon">&#9203;</span> Extensive Video Analysis &amp; Captioning &amp; Rubrics
+      </a>
+
+      <a href="Showcase_AI_Art.html" class="chip">
+        <span class="chip-icon">&#x1F4DC;</span> Pyramid Rubric Suite Example
+      </a>
+
+      <a href="rubkicscubeb.html" class="chip">
+        <span class="chip-icon">&#x1F53A;</span> Image Rubric Example
+      </a>
+
+      <a href="aipromptenginerring.html" class="chip">
+        <span class="chip-icon">&#x1F525;</span> Beautiful GenAI Pyramid Images
+      </a>
+
+      <a href="https://a.co/d/03HicOrP" class="chip" target="_blank" rel="noopener">
+        <span class="chip-icon">&#x1F4D6;</span> My Original Sci-Fi Self-Published Book: The Phoenix CODEX: 138 Palindromic Mirror Edition Complete Phoenix Chronicles: A Trilogy of Trilogies in Palindromic Structure
+      </a>
+
+      <a href="https://gamma.app/docs/Bradley-Rogue-Career-Progression-odd6j5ctirp3vzl" class="chip" target="_blank" rel="noopener">
+        <span class="chip-icon">&#x1F4C8;</span> Bradley's Career Path
+      </a>
+
+      <a href="https://pyramid-egypt-book-8.deploypad.app/" class="chip" target="_blank" rel="noopener">
+        <span class="chip-icon">&#x1F4C8;</span> Portfolio Full-Stack (xclient) Test Site 2 Using Blink Beta Test
+      </a>
+
+    </div>
+
+    <!-- ═══════════════════════════════════════════════
+         SECTION 1: CORE PROMPT ENGINEERING
+         ═══════════════════════════════════════════════ -->
+    <section id="prompt-engineering">
+      <div class="section-header fade-in">
+        <h2>Core Prompt Engineering &amp; Publications</h2>
+        <span class="accent-line"></span>
+        <p class="section-sub">Rubrics, evaluations, and structured prompt design</p>
+      </div>
+      <div class="project-grid">
+        <a href="pyramid-video-rubric-annotation-etc-example.html" class="project-card fade-in">
+          <div class="card-icon">&#9203;</div>
+          <div class="card-title">Video Analysis, Rubrics &amp; Prompt Engineering</div>
+          <div class="card-description">Comprehensive video annotation frameworks with structured evaluation rubrics for multimodal AI assessment.</div>
+          <span class="card-tag">Evaluation</span>
+        </a>
+        <a href="Showcase_AI_Art.html" class="project-card fade-in">
+          <div class="card-icon">&#x1F4DC;</div>
+          <div class="card-title">Pyramid Rubric Suite</div>
+          <div class="card-description">Complete rubric collection for scoring AI-generated visual outputs with structured grading criteria.</div>
+          <span class="card-tag">Rubric Design</span>
+        </a>
+        <a href="rubkicscubeb.html" class="project-card fade-in">
+          <div class="card-icon">&#x1F53A;</div>
+          <div class="card-title">Prompt Rubric: Image Description</div>
+          <div class="card-description">Specialized annotation rubric for evaluating AI image description accuracy and detail fidelity.</div>
+          <span class="card-tag">Annotation</span>
+        </a>
+        <a href="prompt-portfolio.html" class="project-card fade-in">
+          <div class="card-icon">&#x1F525;</div>
+          <div class="card-title">Original GenAI Pyramid Images &amp; Prompts</div>
+          <div class="card-description">Curated prompt library with corresponding AI-generated pyramid artwork demonstrating prompt engineering technique.</div>
+          <span class="card-tag">Prompt Craft</span>
+        </a>
+        <a href="https://a.co/d/03HicOrP" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F4D6;</div>
+          <div class="card-title">Cosmic Measurements of The Great Pyramid</div>
+          <div class="card-description">Published book: From Genesis to Revelations &mdash; comprehensive analysis and measurements of the Great Pyramid of Giza.</div>
+          <span class="card-tag">Published &middot; Amazon</span>
+        </a>
+        <a href="archaixhtmltest.txt.html" class="project-card fade-in">
+          <div class="card-icon">&#x1F916;</div>
+          <div class="card-title">Conversational RAG Bot Creation</div>
+          <div class="card-description">Examples of retrieval-augmented generation bots and text knowledge base chatbot implementations.</div>
+          <span class="card-tag">RAG &middot; Bot Building</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         SECTION 2: GENAI OPS & RESEARCH
+         ═══════════════════════════════════════════════ -->
+    <section id="genai-ops">
+      <div class="section-header fade-in">
+        <h2>GenAI Ops &amp; Research</h2>
+        <span class="accent-line"></span>
+        <p class="section-sub">Production workflows, audio engineering, the 138 Protocol, and the 13th Moon Metonic Magazine</p>
+      </div>
+      <div class="project-grid">
+
+        <!-- ✦ NEW ✦ 13th Moon Magazine project card -->
+        <a href="https://13th-moon-codex-e3lhxsto.blinkpowered.com/" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F319;</div>
+          <div class="card-title">The 13th Moon &mdash; Metonic Magazine</div>
+          <div class="card-description">A 19-themed lunisolar folio built on the Metonic cycle: 19 solar years &equiv; 235 lunar months. Literary essays, calendar mathematics, palindromic chapter structure. Built on Blink.</div>
+          <span class="card-tag card-tag--19">19 &middot; Metonic</span>
+        </a>
+
+        <a href="MyAITwinStuff.html" class="project-card fade-in">
+          <div class="card-icon">&#x1F399;</div>
+          <div class="card-title">AI Podcast Production &amp; Script-Writing</div>
+          <div class="card-description">GenieAI &amp; AlbisAI podcast audio production pipeline with AI-assisted script generation examples.</div>
+          <span class="card-tag">Audio &middot; Production</span>
+        </a>
+        <a href="flat-earth-pilots-confirm.html" class="project-card fade-in">
+          <div class="card-icon">&#9992;&#xFE0F;</div>
+          <div class="card-title">Advanced Annotation Framework</div>
+          <div class="card-description">Deep-dive annotation rubric and structured analysis framework for complex multimodal evaluation tasks.</div>
+          <span class="card-tag">Annotation</span>
+        </a>
+        <a href="saved-from-Tryit-2022-01-29.html" class="project-card fade-in">
+          <div class="card-icon">&#x1F3B5;</div>
+          <div class="card-title">AI Digital Home Studio</div>
+          <div class="card-description">Big Fun With Cool Sounds &mdash; complete AI-assisted Audacity music production and digital audio setup.</div>
+          <span class="card-tag">Audio &middot; Studio</span>
+        </a>
+        <a href="cosmic-codex-138.html" class="project-card fade-in">
+          <div class="card-icon">&#x1F319;</div>
+          <div class="card-title">The 138 Protocol &mdash; Cosmic Codex</div>
+          <div class="card-description">The 13th Moon &mdash; Cosmic Measurements &mdash; a mini illustrated codex of the 138-year Phoenix cycle.</div>
+          <span class="card-tag">138 &middot; Phoenix</span>
+        </a>
+        <a href="https://the-pit-chronicles-l63lvb1.gamma.site" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F3A8;</div>
+          <div class="card-title">Generative AI Art Collection</div>
+          <div class="card-description">Curated gallery of AI-generated pyramid artwork and experimental visual compositions.</div>
+          <span class="card-tag">Visual &middot; GenAI</span>
+        
+      </a>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         SECTION 3: CLIENT WORK & SITE EXAMPLES
+         (NEW section — homes the AnuBus + ARCHAIX-funnel demos)
+         ═══════════════════════════════════════════════ -->
+    <section id="client-work">
+      <div class="section-header fade-in">
+        <h2>Client Work &amp; Site Examples</h2>
+        <span class="accent-line"></span>
+        <p class="section-sub">Full-stack site builds, funnels, and themed deploys</p>
+      </div>
+      <div class="project-grid">
+
+        <!-- ✦ NEW ✦ AnuBus Tours -->
+        <a href="https://egypt-pyramid-explore.deploypad.app/" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F42B;</div>
+          <div class="card-title">AnuBus Tours &mdash; Site Example</div>
+          <div class="card-description">Egypt &amp; pyramid travel-explorer site mockup: itinerary structure, hero sections, and themed visual treatment. Built as a deployable client-facing template.</div>
+          <span class="card-tag">Site Example</span>
+        </a>
+
+        <!-- ✦ NEW ✦ ARCHAIX Blink Funnel -->
+        <a href="https://pyramid-book-clone-gbh540st.blinkpowered.com/#videos" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F3AC;</div>
+          <div class="card-title">Blink ARCHAIX Funnel Sample</div>
+          <div class="card-description">Video-funnel demo built on Blink &mdash; embeds, conversion path, and themed landing flow tied to the ARCHAIX content world.</div>
+          <span class="card-tag">Funnel &middot; Blink</span>
+        </a>
+
+        <a href="https://pyramid-egypt-book-6.deploypad.app/" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#9203;</div>
+          <div class="card-title">ARCHAIX Full-Stack Prototype</div>
+          <div class="card-description">Full-stack client site prototype delivered on the Famous.ai platform &mdash; design, content, and deploy.</div>
+          <span class="card-tag">Full-Stack</span>
+        </a>
+
+        <a href="https://pyramid-egypt-book-8.deploypad.app/" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F4C8;</div>
+          <div class="card-title">Portfolio Full-Stack Test Site</div>
+          <div class="card-description">Second test site on Blink Beta &mdash; portfolio-style full-stack build demonstrating layout, deploy, and CMS patterns.</div>
+          <span class="card-tag">Test Site &middot; Blink</span>
+        </a>
+
+        <a href="https://pyramid-egypt-book-8.deploypad.app/" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F4C8;</div>
+          <div class="card-title">Portfolio Full-Stack Test Site</div>
+          <div class="card-description">Second test site on Blink Beta &mdash; portfolio-style full-stack build demonstrating layout, deploy, and CMS patterns.</div>
+          <span class="card-tag">Test Site &middot; Blink</span>
+        </a>
+
+        <a href="https://pyramid-egypt-book-8.deploypad.app/" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F4C8;</div>
+          <div class="card-title">Portfolio Full-Stack Test Site</div>
+          <div class="card-description">Second test site on Blink Beta &mdash; portfolio-style full-stack build demonstrating layout, deploy, and CMS patterns.</div>
+          <span class="card-tag">Test Site &middot; Blink</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         SECTION 4: LEGACY ARCHIVES
+         ═══════════════════════════════════════════════ -->
+    <section id="legacy">
+      <div class="section-header fade-in">
+        <h2>Legacy Projects &amp; Archives</h2>
+        <span class="accent-line"></span>
+        <p class="section-sub">Crypto, e-commerce, and the Chronicon</p>
+      </div>
+      <div class="project-grid">
+        <a href="https://blinuxwixtest1919.wixsite.com/beeradicalstore" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F517;</div>
+          <div class="card-title">Crypto Archives</div>
+          <div class="card-description">Historical cryptocurrency projects and blockchain experiments from the early trading era.</div>
+          <span class="card-tag">Crypto &middot; Archive</span>
+        </a>
+        <a href="https://musicstorestuff.com/" class="project-card fade-in" target="_blank" rel="noopener">
+          <div class="card-icon">&#x1F6D2;</div>
+          <div class="card-title">Uncle B's Music Store</div>
+          <div class="card-description">E-commerce platform formerly live on Shift4Shop &mdash; full storefront and product catalog implementation.</div>
+          <span class="card-tag">E-Commerce</span>
+        </a>
+        <a href="pyramidbot.html" class="project-card fade-in">
+          <div class="card-icon">&#x1F916;</div>
+          <div class="card-title">CHRONICON Bot</div>
+          <div class="card-description">Interactive AI assistant &mdash; speak with the Pharaoh of the Pyramid. Conversational interface powered by custom knowledge base.</div>
+          <span class="card-tag">Bot &middot; Interactive</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         GALLERY
+         ═══════════════════════════════════════════════ -->
+    <section id="gallery">
+      <div class="section-header fade-in">
+        <h2>GenAI Pyramid Gallery</h2>
+        <span class="accent-line"></span>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+  </div><!-- /.container -->
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-brand">BRADLEY ROGUE VENTURES</div>
+    <div class="footer-sub">AI Evaluator &middot; Prompt Engineer &middot; 138 Protocol Researcher &middot; 19/Metonic Magazine</div>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/bradleyrogue" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://a.co/d/03HicOrP" target="_blank" rel="noopener">Published Book</a>
+      <a href="https://gamma.app/docs/Bradley-Rogue-Career-Progression-odd6j5ctirp3vzl" target="_blank" rel="noopener">Career Timeline</a>
+      <a href="https://13th-moon-codex-e3lhxsto.blinkpowered.com/" target="_blank" rel="noopener">13th Moon Magazine</a>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════
+       WEATHER WIDGET INITIALIZATION
+       ═══════════════════════════════════════════════ -->
+  <script>
+    !function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://weatherwidget.io/js/widget.min.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    }(document, 'script', 'weatherwidget-io-js');
+  </script>
+
+  <!-- ═══════════════════════════════════════════════
+       MAIN APPLICATION SCRIPTS
+       ═══════════════════════════════════════════════ -->
+  <script>
+    /* ═══ Gallery Population ═══ */
+    (function() {
+      var galleryImages = [
+        '687c2776c93ce47e2b704865_1752967444259_cc8343e5.png',
+        '687c2776c93ce47e2b704865_1752967445223_9a63d235.png',
+        '687c2776c93ce47e2b704865_1752967445687_10c09d96.png',
+        '687c2776c93ce47e2b704865_1752967446496_f9e60c2b.png'
+      ];
+      var galleryEl = document.getElementById('galleryGrid');
+      if (galleryEl) {
+        galleryImages.forEach(function(f, i) {
+          var d = document.createElement('div');
+          d.className = 'gallery-item fade-in';
+          d.innerHTML =
+            '<img src="./images/' + f + '" alt="Pyramid Art ' + (i + 1) + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">' +
+            '<div class="gallery-overlay"><div class="gallery-title">Pyramid Vision #' + (i + 1) + '</div></div>';
+          galleryEl.appendChild(d);
+        });
+      }
+    })();
+
+    /* ═══ Cairo Time ═══ */
+    (function() {
+      function updateCairoTime() {
+        var now = new Date();
+        var cairoTime = new Date(now.toLocaleString('en-US', { timeZone: 'Africa/Cairo' }));
+        var timeString = cairoTime.toLocaleTimeString('en-US', {
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          hour12: true
+        });
+        var el = document.getElementById('time');
+        if (el) el.textContent = timeString;
+      }
+      updateCairoTime();
+      setInterval(updateCairoTime, 1000);
+    })();
+
+    /* ═══ Phoenix 138 Countdown to 2040-05-16 ═══ */
+    (function() {
+      function updatePhoenix138() {
+        var now = new Date();
+        var target = new Date('2040-05-16T00:00:00Z');
+        var diff = target - now;
+        var el = document.getElementById('phoenix138');
+        if (!el) return;
+        if (diff > 0) {
+          var days = Math.floor(diff / 86400000);
+          var hrs  = Math.floor((diff / 3600000) % 24);
+          var mins = Math.floor((diff / 60000) % 60);
+          var secs = Math.floor((diff / 1000) % 60);
+          el.innerHTML = '🔥 <span class="word-phoenix">Phoenix</span> 2040: ' + days + 'd ' + hrs + 'h ' + mins + 'm ' + secs + 's';
+        } else {
+          el.innerHTML = '🔥 The <span class="word-phoenix">Phoenix</span> has arrived!';
+        }
+      }
+      updatePhoenix138();
+      setInterval(updatePhoenix138, 1000);
+    })();
+
+    /* ═══ Moon Phase Widget ═══ */
+    (function() {
+      var container = document.getElementById('moonWidget');
+      var fallback = document.getElementById('moonFallback');
+      if (!container) return;
+
+      var s = document.createElement('script');
+      s.src = 'https://www.moongiant.com/moon_widget.js';
+      s.onload = function() {
+        if (typeof MoonWidget !== 'undefined') {
+          if (fallback) fallback.style.display = 'none';
+          new MoonWidget({
+            size: 50,
+            lightColor: '#D4A843',
+            darkColor: '#0B0E17',
+            earthColor: '#0B0E17',
+            hemisphere: 'N'
+          });
+        }
+      };
+      s.onerror = function() {
+        console.warn('Moon widget failed to load — using fallback.');
+      };
+      container.appendChild(s);
+    })();
+
+    /* ═══ Scroll Fade-In Observer ═══ */
+    (function() {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+      document.querySelectorAll('.fade-in').forEach(function(el) {
+        observer.observe(el);
+      });
+    })();
+
+    /* ═══ Sacred-Word Auto-Highlighter ═══ */
+    (function() {
+      var WORD_RE = /\b(Chronicon|Phoenix|Nibiru|Niburi)\b/gi;
+      var SKIP_TAGS = { SCRIPT: 1, STYLE: 1, CODE: 1, PRE: 1, TEXTAREA: 1, INPUT: 1, NOSCRIPT: 1 };
+      var SKIP_CLASSES = ['word-chronicon', 'word-phoenix', 'word-nibiru'];
+
+      function classFor(word) {
+        var w = word.toLowerCase();
+        if (w === 'chronicon') return 'word-chronicon';
+        if (w === 'phoenix')   return 'word-phoenix';
+        return 'word-nibiru';
+      }
+
+      function wrapTextNode(node) {
+        var text = node.nodeValue;
+        if (!WORD_RE.test(text)) return;
+        WORD_RE.lastIndex = 0;
+        var frag = document.createDocumentFragment();
+        var lastIdx = 0, m;
+        while ((m = WORD_RE.exec(text)) !== null) {
+          if (m.index > lastIdx) frag.appendChild(document.createTextNode(text.slice(lastIdx, m.index)));
+          var span = document.createElement('span');
+          span.className = classFor(m[1]);
+          span.textContent = m[1];
+          frag.appendChild(span);
+          lastIdx = m.index + m[1].length;
+        }
+        if (lastIdx < text.length) frag.appendChild(document.createTextNode(text.slice(lastIdx)));
+        node.parentNode.replaceChild(frag, node);
+      }
+
+      function walk(node) {
+        if (node.nodeType === 3) { wrapTextNode(node); return; }
+        if (node.nodeType !== 1) return;
+        if (SKIP_TAGS[node.tagName]) return;
+        for (var i = 0; i < SKIP_CLASSES.length; i++) {
+          if (node.classList && node.classList.contains(SKIP_CLASSES[i])) return;
+        }
+        var kids = Array.prototype.slice.call(node.childNodes);
+        for (var j = 0; j < kids.length; j++) walk(kids[j]);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() { walk(document.body); });
+      } else {
+        walk(document.body);
+      }
+    })();
+
+    /* ═══ Active Nav Highlighting on Scroll ═══ */
+    (function() {
+      var sections = document.querySelectorAll('section[id]');
+      var navLinks = document.querySelectorAll('.nav-link[href^="#"]');
+
+      window.addEventListener('scroll', function() {
+        var scrollY = window.scrollY + 160;
+        sections.forEach(function(sec) {
+          if (scrollY >= sec.offsetTop && scrollY < sec.offsetTop + sec.offsetHeight) {
+            navLinks.forEach(function(link) {
+              link.classList.toggle('active', link.getAttribute('href') === '#' + sec.id);
+            });
+          }
+        });
+      });
+    })();
+  </script>
+
+  <!-- ═══════════════════════════════════════════════
+       ELEVENLABS POPUP SUMMONERS
+       ═══════════════════════════════════════════════ -->
+  <script>
+    function spawnBotPopup(name, html) {
+      const W = 460, H = 660;
+      const left = Math.max(0, Math.floor((screen.width  - W) / 2));
+      const top  = Math.max(0, Math.floor((screen.height - H) / 2));
+      const features =
+        'width=' + W + ',height=' + H + ',top=' + top + ',left=' + left +
+        ',resizable=yes,scrollbars=no,toolbar=no,menubar=no,location=no,status=no';
+      const w = window.open('about:blank', name, features);
+      if (!w) {
+        alert('Popup blocked. Please allow popups for this site, then click again.');
+        return null;
+      }
+      try {
+        w.document.open();
+        w.document.write(html);
+        w.document.close();
+        w.focus();
+      } catch (e) {
+        console.error('Bot popup write failed:', e);
+      }
+      return w;
+    }
+
+    function openChroniconBot() {
+      const html = '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>CHRONICON · Pharaoh</title>'
+        + '<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cinzel+Decorative:wght@700&family=EB+Garamond:ital@1&display=swap" rel="stylesheet">'
+        + '<style>'
+        + '*{margin:0;padding:0;box-sizing:border-box}'
+        + 'html,body{width:100%;height:100%;background:radial-gradient(ellipse at center,#1a1208 0%,#070503 70%);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:\'EB Garamond\',serif;color:#c9a84c;overflow:hidden;padding:24px;position:relative}'
+        + 'body::before{content:\'\';position:absolute;inset:0;background-image:radial-gradient(1px 1px at 8% 12%,rgba(255,245,210,.7) 0,transparent 100%),radial-gradient(1px 1px at 52% 6%,rgba(255,245,210,.85) 0,transparent 100%),radial-gradient(1px 1px at 71% 22%,rgba(255,245,210,.5) 0,transparent 100%),radial-gradient(1px 1px at 88% 55%,rgba(255,245,210,.4) 0,transparent 100%),radial-gradient(1px 1px at 35% 68%,rgba(255,245,210,.55) 0,transparent 100%),radial-gradient(1px 1px at 16% 78%,rgba(255,245,210,.4) 0,transparent 100%);pointer-events:none}'
+        + '.frame{position:relative;z-index:1;border:1px solid rgba(201,168,76,0.3);padding:36px 32px;border-radius:3px;text-align:center;max-width:380px;min-width:340px;background:linear-gradient(145deg,rgba(34,26,14,0.7),rgba(12,8,4,0.85))}'
+        + '.frame::before{content:\'\';position:absolute;top:8px;left:8px;right:8px;bottom:8px;border:1px solid rgba(201,168,76,0.12);border-radius:2px;pointer-events:none}'
+        + '.glyph{font-size:2.6rem;margin-bottom:14px;color:#f0d080;text-shadow:0 0 18px rgba(201,168,76,0.7);animation:pulse 2s ease-in-out infinite}'
+        + '@keyframes pulse{0%,100%{text-shadow:0 0 18px rgba(201,168,76,0.5);transform:scale(1)}50%{text-shadow:0 0 32px rgba(201,168,76,0.95);transform:scale(1.04)}}'
+        + '.label{font-family:\'Cinzel Decorative\',serif;font-size:0.95rem;letter-spacing:0.18em;color:#f0d080;margin-bottom:6px;text-shadow:0 0 14px rgba(201,168,76,0.45)}'
+        + '.tagline{font-family:\'Cinzel\',serif;font-size:0.62rem;letter-spacing:0.3em;text-transform:uppercase;color:#c9a84c;margin-bottom:18px;opacity:0.75}'
+        + '.hint{margin-top:20px;font-style:italic;font-size:0.8rem;color:#6a4e18;line-height:1.6;max-width:220px}'
+        + '</style></head><body>'
+        + '<div class="frame">'
+        + '<div class="glyph">𓀀</div>'
+        + '<div class="label">CHRONICON</div>'
+        + '<div class="tagline">Pharaoh of the Pyramid</div>'
+        + '<elevenlabs-convai agent-id="agent_01jzs4sm34f4qtmy5hsnyp17zw"></elevenlabs-convai>'
+        + '<div class="hint">Click the voice button · Ask the Pharaoh anything</div>'
+        + '</div>'
+        + '<scr' + 'ipt src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></scr' + 'ipt>'
+        + '</body></html>';
+      spawnBotPopup('chroniconBot', html);
+    }
+
+    function openGenieBot() {
+      const html = '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Albis · GenieAI</title>'
+        + '<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cinzel+Decorative:wght@700&family=EB+Garamond:ital@1&display=swap" rel="stylesheet">'
+        + '<style>'
+        + '*{margin:0;padding:0;box-sizing:border-box}'
+        + 'html,body{width:100%;height:100%;background:radial-gradient(ellipse at center,#1a0a2e 0%,#050015 70%);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:\'EB Garamond\',serif;color:#b48cf0;overflow:hidden;padding:24px;position:relative}'
+        + 'body::before{content:\'\';position:absolute;inset:0;background-image:radial-gradient(1px 1px at 8% 12%,rgba(180,220,255,.7) 0,transparent 100%),radial-gradient(1px 1px at 52% 6%,rgba(180,220,255,.85) 0,transparent 100%),radial-gradient(1px 1px at 71% 22%,rgba(180,220,255,.5) 0,transparent 100%),radial-gradient(1px 1px at 88% 55%,rgba(180,220,255,.4) 0,transparent 100%),radial-gradient(1px 1px at 35% 68%,rgba(180,220,255,.55) 0,transparent 100%),radial-gradient(1px 1px at 16% 78%,rgba(180,220,255,.4) 0,transparent 100%);pointer-events:none}'
+        + '.frame{position:relative;z-index:1;border:1px solid rgba(155,81,224,0.3);padding:36px 32px;border-radius:3px;text-align:center;max-width:380px;min-width:340px;background:linear-gradient(145deg,rgba(26,10,46,0.7),rgba(5,0,21,0.85))}'
+        + '.frame::before{content:\'\';position:absolute;top:8px;left:8px;right:8px;bottom:8px;border:1px solid rgba(155,81,224,0.12);border-radius:2px;pointer-events:none}'
+        + '.glyph{font-size:2.6rem;margin-bottom:14px;color:#d4b8ff;text-shadow:0 0 18px rgba(155,81,224,0.7);animation:pulse 2s ease-in-out infinite}'
+        + '@keyframes pulse{0%,100%{text-shadow:0 0 18px rgba(155,81,224,0.5);transform:scale(1)}50%{text-shadow:0 0 32px rgba(155,81,224,0.95);transform:scale(1.04)}}'
+        + '.label{font-family:\'Cinzel Decorative\',serif;font-size:0.95rem;letter-spacing:0.18em;color:#d4b8ff;margin-bottom:6px;text-shadow:0 0 14px rgba(155,81,224,0.45)}'
+        + '.tagline{font-family:\'Cinzel\',serif;font-size:0.62rem;letter-spacing:0.3em;text-transform:uppercase;color:#b48cf0;margin-bottom:18px;opacity:0.75}'
+        + '.hint{margin-top:20px;font-style:italic;font-size:0.8rem;color:#5e3a8e;line-height:1.6;max-width:220px}'
+        + '</style></head><body>'
+        + '<div class="frame">'
+        + '<div class="glyph">✦</div>'
+        + '<div class="label">ALBIS · GENIEAI</div>'
+        + '<div class="tagline">The Future Is Autonomous</div>'
+        + '<elevenlabs-convai agent-id="agent_01k0gq4p5pf9vt1h0v49x2scck"></elevenlabs-convai>'
+        + '<div class="hint">Click the voice button · Three wishes, autonomous</div>'
+        + '</div>'
+        + '<scr' + 'ipt src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></scr' + 'ipt>'
+        + '</body></html>';
+      spawnBotPopup('genieAIBot', html);
+    }
+  </script>
+
+  <!-- ═══════════════════════════════════════════════
+       CHATBASE CHATBOT — bottom-right embed
+       ═══════════════════════════════════════════════ -->
+  <script>
+    (function() {
+      if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+        window.chatbase = function() {
+          if (!window.chatbase.q) { window.chatbase.q = []; }
+          window.chatbase.q.push(arguments);
+        };
+        window.chatbase = new Proxy(window.chatbase, {
+          get: function(target, prop) {
+            if (prop === "q") { return target.q; }
+            return function() {
+              var args = Array.prototype.slice.call(arguments);
+              return target.apply(null, [prop].concat(args));
+            };
+          }
+        });
+      }
+      var onLoad = function() {
+        var script = document.createElement("script");
+        script.src = "https://www.chatbase.co/embed.min.js";
+        script.id = "OwQoQh1_tbTaPHq1bIlYV";
+        script.domain = "www.chatbase.co";
+        document.body.appendChild(script);
+      };
+      if (document.readyState === "complete") {
+        onLoad();
+      } else {
+        window.addEventListener("load", onLoad);
+      }
+    })();
+
+    function openChatbase() {
+      if (window.chatbase && typeof window.chatbase === 'function') {
+        window.chatbase('open');
+      } else {
+        var bubble = document.querySelector('iframe[src*="chatbase"]');
+        if (bubble) bubble.contentWindow.postMessage('open', '*');
+      }
+    }
+  </script>
+
+  <!-- Shared Navigation -->
+  <script src="nav.js" onerror=""></script>
+
+</body>
+</html>
