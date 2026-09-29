@@ -1,0 +1,97 @@
+ERE WE WERE · THE LOST SECRETS OF GIZA · II — THE LONG COUNT — 138.000 s · station sheet v1
+Source: Jason Breshears (Archaix), "The Lost Secrets of Giza" overview. Same template, same rules as Giza I.
+Shape: 3 s title + 9 × 15 s = 4,140 frames at 30 fps. The span itself is the palindrome: station 1 = 5239 BC, station 9 = 2106 AD, station 5 = 1567 BC, the exact centre (3,672 years each side).
+
+==============================================================================
+H01 · STATION 1/9 · mirror 9 · 5239 BC · Before Year One
+TITLE   THE LONG COUNT
+CLAIM   Breshears starts his clock 1,344 years before Year One and runs it to the capstone
+FACT    From 5239 BC to 2106 AD is 7,344 years, with no year zero. Divide by three: 2,448.
+NATORI  Fifty-two thirty-nine BC. Before Year One, before the pyramid, somebody was already counting.
+ROGUE   Seven thousand three hundred forty-four years from here to the capstone. Hold on to that number.
+CHECK   5239 BC is the start of Breshears’ Anunnaki reckoning (Chronicon) · 5239 + 2106 − 1 = 7,344, because there is no year zero.
+CLIP    code-drawn ground (the v1 proof look)
+==============================================================================
+H02 · STATION 2/9 · mirror 8 · 3440 BC · Entrance · north face
+TITLE   THE DRAGON STAR
+CLAIM   The descending passage points north, at the pole star of its age: Thuban, the eye of the Dragon
+FACT    Thuban, Alpha Draconis, was the pole star around 2800 BC. The descending passage slopes at about 26°.
+NATORI  Thirty-four forty BC. The passage in the north face points at the eye of the Dragon.
+ROGUE   The old pole star. When it sat in that shaft, he says, a third of the world died.
+CHECK   Precession: Thuban was nearest the pole c. 2830 BC · the 3440 BC aim and the 3439 BC catastrophe are Breshears’ readings; Herschel and Piazzi Smith gave other dates.
+CLIP    north face, entrance side (a4fd6abe)
+==============================================================================
+H03 · STATION 3/9 · mirror 7 · 1899 BC · Giza to Thebes
+TITLE   TWO EGYPTS
+CLAIM   Every pyramid in Egypt stands in the north; the kings of the Valley lie far to the south, with none
+FACT    Giza to the Valley of the Kings is about 500 km as the crow flies. No pyramid stands there.
+NATORI  Eighteen ninety-nine BC. He says the sea let go of the north, and the land rose.
+ROGUE   Two Egypts. The pyramids in one, the kings’ tombs in the other, weeks of walking apart.
+CHECK   Straight-line distance ≈ 500 km (311 mi); the talk’s 416 miles is nearer a road route · the 1899 BC uplift is Breshears’ Chronicon.
+CLIP    pyramid on the desert horizon (df1e454e, darkened)
+==============================================================================
+H04 · STATION 4/9 · mirror 6 · 1447 BC · Top of the Grand Gallery
+TITLE   EXODUS 2448
+CLAIM   Breshears’ number for a people leaving a dying world is 2,448, and the pyramid keeps returning it
+FACT    2448 AM is 1447 BC on his calendar. 7,344 ÷ 3 = 2,448, and 204 years is 2,448 months.
+NATORI  Fourteen forty-seven BC. Good people leave a bad world. He files it under one number.
+ROGUE   Twenty-four forty-eight. A third of the long count. Two hundred four years, counted in months.
+CHECK   3895 − 2448 = 1447 · 1447 BC is the traditional early Exodus date (from 1 Kings 6:1); many scholars prefer the 13th century BC.
+CLIP    top of the Grand Gallery (49c8832b)
+==============================================================================
+H05 · STATION 5/9 · mirror 5 · AXIS · 1567 BC · The King’s Chamber shaft
+TITLE   THE MIDDLE YEAR
+CLAIM   Fold the 7,344 years in half and Breshears lands on Megiddo, the first Armageddon
+FACT    5239 BC plus 3,672 years is 1567 BC. Another 3,672 reaches 2106 AD. The exact centre.
+NATORI  Fifteen sixty-seven BC. Fold the long count in half, and it creases here.
+ROGUE   Megiddo, he says. The first Armageddon, sitting dead centre of the whole run.
+CHECK   The arithmetic holds (no year zero) · Thutmose III’s Battle of Megiddo is usually dated 1457 or 1479 BC, not 1567.
+CLIP    King's Chamber shaft looking up (92006f26)
+==============================================================================
+H06 · STATION 6/9 · mirror 4 · 1303 AD · The casing quarry
+TITLE   THE STRIPPING
+CLAIM   Earthquakes cracked the white armour; the builders of Cairo took the rest
+FACT    After the earthquake of 1303, casing stone was carted off to build Cairo. Sultan Hassan’s mosque is said to hold some.
+NATORI  Thirteen oh three. The ground shook, the white skin cracked, and Cairo came for the pieces.
+ROGUE   Sixty years of hauling. What the flood could not strip, a building boom did.
+CHECK   Al-Maqrizi records the 1303 quake · the Sultan Hassan attribution is a long tradition, not a surveyed fact.
+CLIP    casing blocks half-buried (b325083c)
+==============================================================================
+H07 · STATION 7/9 · mirror 3 · 1765 AD · Above the King’s Chamber
+TITLE   DAVISON’S CHAMBER
+CLAIM   Five low rooms stacked over the King’s Chamber carry the mountain’s weight away from it
+FACT    Nathaniel Davison found the first relieving chamber in 1765. Vyse blasted into four more in 1837.
+NATORI  Seventeen sixty-five. A ladder, a candle, and a crawlway into a room nobody had seen.
+ROGUE   Granite beams, stacked five deep, so the chamber below never feels the weight.
+CHECK   Vyse’s 1837 chambers carry the builders’ red-paint marks, including Khufu’s name, Egyptology’s key dating evidence; Breshears dates the build to 2905–2815 BC.
+CLIP    relieving chambers above the King's Chamber (e0f9e03b)
+==============================================================================
+H08 · STATION 8/9 · mirror 2 · 1926 AD · The Sphinx enclosure
+TITLE   THE GUARDIAN
+CLAIM   Breshears: the body is a dog’s, Anubis at the gate, and the head was recut small
+FACT    The Sphinx is about 73 metres long and 20 high. Baraize cleared its enclosure from 1925 to 1936.
+NATORI  Nineteen twenty-six. They dig the sand from its paws. The head looks too small for the body.
+ROGUE   He says it was a jackal once. The riddler at the gate, keeping us out of Eden.
+CHECK   Egyptology: carved for Khafre, c. 2500 BC · the Anubis reading is Breshears’ (after Robert Temple).
+CLIP    code-drawn ground (no Sphinx footage yet)
+==============================================================================
+H09 · STATION 9/9 · mirror 1 · 2106 AD · The flat summit
+TITLE   THE CAPSTONE
+CLAIM   Two hundred three courses stand. The last, the chief cornerstone, is missing, and he reads the gap as time
+FACT    6000 AM is 2106 AD. 1,902 + 204 = 2,106, and a 612-foot face is exactly 7,344 inches.
+NATORI  Twenty-one oh six. Two hundred three courses stand. The last one is still missing.
+ROGUE   Set the capstone and the count closes. Six thousand years. Every stone, a name.
+CHECK   6000 − 3894 = 2106 by the Chronicon rule · surveys give 201–210 courses (203 is the usual figure) and a face slope near 186 m, ≈ 611 ft.
+CLIP    dawn, white casing face (a730fdcf)
+==============================================================================
+
+WHERE THE TALK AND THE RECORD DIFFER — flagged on screen in the CHECK lines:
+• Battle of Megiddo: usually dated 1457 or 1479 BC. The talk puts the centre of the span on it; the arithmetic centre is 1567 BC.
+• Giza to the Valley of the Kings: about 500 km (311 mi) in a straight line; the talk's 416 miles is nearer a road route.
+• Thuban was nearest the pole around 2830 BC. The 3440 BC aim is Breshears' reading; Herschel and Piazzi Smith gave other dates.
+• Vyse's 1837 relieving chambers carry the builders' red-paint marks, including Khufu's name, which Egyptology treats as the key dating evidence.
+• The face slope measures about 186 m (≈ 611 ft); the talk uses 612 ft = 7,344 in.
+• Sultan Hassan mosque holding casing stone is a tradition, not a survey.
+• Arithmetic checked: 5239 + 2106 − 1 = 7,344 (no year zero) · 7,344 ÷ 3 = 2,448 · 204 × 12 = 2,448 · 3895 − 2448 = 1447 · −5239 + 3,672 = 1567 BC · 1567 BC + 3,672 = 2106 AD · 612 × 12 = 7,344 · 6000 − 3894 = 2106 · 1902 + 204 = 2106.
+
+READS THE SAME RETURNING · 19138 · 83191

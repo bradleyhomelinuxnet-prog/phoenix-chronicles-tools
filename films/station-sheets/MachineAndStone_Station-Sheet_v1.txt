@@ -1,0 +1,244 @@
+ERE WE WERE · THE MACHINE AND THE STONE · 511.0 s · station sheet v1
+Source: the twenty-five Cinema Studio generations of 28 September 2026 (12 × Video 3.5 event shots from The Chronologist's Machine plan, 13 × Video 3.0 Great Pyramid interiors) · Cosmic Measurements of the Great Pyramid of Giza (Appendix A/B) · The Phoenix CODEX: 138 · Breshears, Chronicon. Same rules as Giza I and II. Nothing on screen was generated for this film; every clip is one of the twenty-five.
+Shape: 36 s title + 25 × 19 s = 12,264 frames at 24 fps. The 36 s title is two cards (17 s title, 19 s contract). Station k mirrors station 26 − k; station 13 is the axis. 511 s = 8:31. Movement I THE MACHINE = stations 1–12 (the fires, chart order). Movement II THE STONE = stations 14–25 (out of the pyramid to the desert). Each 7 s clip plays forward, retrograde, forward inside its 19 s; each 10 s clip plays forward then retrograde.
+
+==============================================================================
+H01 · STATION 1/25 · mirror 25 · 5239 BC · the first fire
+TITLE   THE FIRST FIRE
+CLAIM   The Chronicon starts its count 1,344 years before Year One: 5239 BC, a fire crossing the sky, the first year anyone counted from.
+FACT    5239 − 3895 = 1,344. From 5239 BC to 2106 AD is 7,344 years with no year zero: 5239 + 2106 − 1.
+NATORI  Fifty-two thirty-nine BC. Something crossed the sky, and somebody started counting.
+ROGUE   Thirteen hundred forty-four years before Year One. Seven thousand three hundred forty-four to the capstone.
+CHECK   5239 BC is the start of Breshears' Anunnaki reckoning (Chronicon); no dated sky event survives in any archaeological or textual record for that year. The arithmetic holds.
+CLIP    7b96b61f — burning streak, crane up from the waves (Chronologist's Machine shot 3) · 7 s · fwd-retro-fwd
+==============================================================================
+H02 · STATION 2/25 · mirror 24 · 4309 BC · the chronoliths begin
+TITLE   SHADOW ENTERS THE CIRCLE
+CLAIM   The chart starts the chronoliths, the standing-stone clocks, in 4309 BC, the first year a shadow entered a circle's centre on purpose.
+FACT    5239 − 4309 = 930, the years of Adam's life in Genesis 5:5. A stone's shadow reaches a circle's centre only at one fixed date each year.
+NATORI  Forty-three oh nine. The first shadow to cross a circle's centre on purpose.
+ROGUE   Nine hundred thirty years after the first fire. Adam's whole life, to the year.
+CHECK   No dated stone circle is that old: Göbekli Tepe's enclosures are c. 9500 BC, Stonehenge's sarsens c. 2500 BC. 4309 BC is the chart's date; 930 is Genesis 5:5.
+CLIP    3bb91363 — sun lifts behind the standing stones, shadow enters the circle (shot 4) · 7 s · fwd-retro-fwd
+==============================================================================
+H03 · STATION 3/25 · mirror 23 · 3895 BC · AM 1 · the gate closes
+TITLE   YEAR ONE
+CLAIM   Year One. The gate of Eden closes behind two people walking out onto the ash, and the Anno Mundi count begins.
+FACT    3895 BC is Anno Mundi 1 in the Chronicon, and AD = AM − 3894 (AM 5796 = 1902). Ussher's creation is 4004 BC; the Hebrew calendar's is 3761 BC.
+NATORI  Thirty-eight ninety-five. Year One. The gate closes and the counting starts.
+ROGUE   Two people, one road, and a number that never stops.
+CHECK   Three creations, none archaeological: Ussher 4004 BC, the Hebrew calendar 3761 BC, Breshears 3895 BC. Only the last one puts 1902 on a 138-multiple.
+CLIP    d11132fe — two cloaked figures walk from the closing gate onto the ash plain (shot 5) · 7 s · fwd-retro-fwd
+==============================================================================
+H04 · STATION 4/25 · mirror 22 · the arcs · ±792 / ±1200
+TITLE   THE ARCS
+CLAIM   The cipher draws the same span on both sides of a date: from the Flood, 792 and 1,200 years either way, and something lands at each end.
+FACT    2239 − 792 = 1447 BC, the early Exodus date. 2239 + 1200 = 3439 BC. Both spans are struck from AM 1656.
+NATORI  Every date has a mirror. Seven hundred ninety-two years one way, seven ninety-two the other.
+ROGUE   Twelve hundred does it too. The line doesn't care which way you walk it.
+CHECK   1447 BC is the traditional early Exodus (1 Kings 6:1); many scholars prefer the 13th century BC. 3439 BC is Breshears' catastrophe date, unrecorded elsewhere. The 792 and 1,200 spans are the chart's.
+CLIP    f6474698 — Natori and Rogue walk the line of light as cyan arcs rise and land (shot 7) · 7 s · fwd-retro-fwd
+==============================================================================
+H05 · STATION 5/25 · mirror 21 · 1656 · 1656 · the mirrored dates
+TITLE   THE HINGE
+CLAIM   The Flood sits exactly 1,656 years after Year One and exactly 1,656 years before the Medo-Lydian eclipse. Natori threads the two.
+FACT    3895 − 1656 = 2239 BC. 2239 − 1656 = 583 BC. 1,656 = 138 × 12; 3,312 = 138 × 24. Genesis 5 and 7:11 sum the Flood to AM 1656.
+NATORI  Sixteen fifty-six years in. Sixteen fifty-six years out. The Flood is the hinge.
+ROGUE   Eden on one side, Thales on the other. Twelve fires each way.
+CHECK   AM 1656 for the Flood is the Masoretic sum; the Septuagint gives 2242. Thales' eclipse is astronomically 28 May 585 BC, two years off the chart's 583. The subtraction holds.
+CLIP    1cc817ae — Natori sweeps the field of luminous dots, threads of amber light join their twins (shot 8) · 7 s · fwd-retro-fwd
+==============================================================================
+H06 · STATION 6/25 · mirror 20 · 2239 BC · the rain begins
+TITLE   THE RAIN BEGINS
+CLAIM   The Flood begins as rain on a stone plain while a pale wall of water rises along the whole horizon, and two people watch it come.
+FACT    Genesis 7:11–12: the fountains of the deep and the windows of heaven, forty days of rain. AM 1656 = 138 × 12, the twelfth Phoenix.
+NATORI  Twenty-two thirty-nine. The rain comes first. The water is already on its way.
+ROGUE   Twelfth fire. Every fourth one is a flood. This is the first.
+CHECK   No global flood layer exists in the geological record; the Mesopotamian flood deposits at Ur, Kish and Shuruppak date c. 2900 BC and are local. The year is the Chronicon's.
+CLIP    0c4e4283 — rain on the stone plain, the wall of water rising, the two of them watching (shot 9) · 7 s · fwd-retro-fwd
+==============================================================================
+H07 · STATION 7/25 · mirror 19 · 2239 BC · AM 1656 · the flood held
+TITLE   THE SUSPENDED SEA
+CLAIM   The wave stops mid-fall. The chart reads the Flood as the exact centre of a mirror: what came before it returns after it.
+FACT    Played forward then backward, the six-second wave is its own palindrome. AM 1656 is one of only 43 years in six thousand that sit on a 138-multiple.
+NATORI  Hold it there. Halfway between the gate and the eclipse.
+ROGUE   A suspended sea. It reads the same falling or rising.
+CHECK   The Flood as a chronological axis is the chart's reading; Genesis gives the Flood a year and ten days (7:11 to 8:14), not a moment. The 43-of-6,000 count is arithmetic.
+CLIP    8786f10c — the flood wave rolls forward and holds, a suspended sea (shot 10, the plan's axis) · 6 s · fwd-retro-fwd-retro
+==============================================================================
+H08 · STATION 8/25 · mirror 18 · 2239 BC · the rain ends
+TITLE   THE RAIN ENDS
+CLAIM   The last rain thins, the water draws back to a silver line on the horizon, and a band of gold opens under the cloud.
+FACT    Genesis 8:14: the earth was dry in Noah's 601st year, on the 27th day of the second month — 370 days after the rain began.
+NATORI  The water goes back the way it came. It always does.
+ROGUE   Three hundred seventy days, if you count the way Genesis counts.
+CHECK   370 days is the Masoretic count (7:11 to 8:14); the Septuagint and Samaritan texts run other Flood calendars. The gold band under the cloud is the film's, not the text's.
+CLIP    35e96632 — the last rain thins, the water draws back, gold light opens beneath the cloud (shot 11) · 7 s · fwd-retro-fwd
+==============================================================================
+H09 · STATION 9/25 · mirror 17 · 1687 BC · AM 2208 · the comet
+TITLE   FOUR PULSES
+CLAIM   A comet's glow crosses a darkened sun and Natori counts four pulses at her throat: four fires since the Flood, and the sea over Attica.
+FACT    AM 2208 = 138 × 16. 2239 − 1687 = 552 = 138 × 4. The Flood of Ogyges is the chart's sixteenth Phoenix and the second link of the flood chain.
+NATORI  Sixteen eighty-seven. Ogyges. Four pulses, four fires, one flood.
+ROGUE   Five hundred fifty-two years. The second link of the chain.
+CHECK   Ogyges' flood is dated by Julius Africanus c. 1796 BC and by Varro c. 1600 BC; no comet is recorded. The shot's caption reads 1688; AM 2208 is 1687 BC by the Chronicon rule.
+CLIP    93aebf4e — a comet's glow slides across the darkened sun and over her face; four pulses at her throat (shot 12) · 7 s · fwd-retro-fwd
+==============================================================================
+H10 · STATION 10/25 · mirror 16 · 583 BC · AM 3312 · the eclipse
+TITLE   THE ECLIPSE BATTLE
+CLAIM   The sun goes out over the Halys; Medes and Lydians lower their spears and the war ends where it stands. Thales had called it.
+FACT    AM 3312 = 138 × 24. Herodotus I.74: day became night in mid-battle and both sides made peace. Astronomers place the eclipse on 28 May 585 BC.
+NATORI  Five eighty-three. The sun went out and the war stopped where it stood.
+ROGUE   Twenty-fourth fire. Thales called it. The book rounds two years. Note it.
+CHECK   The Halys eclipse is 585 BC by retrocalculation; the chart's 583 BC is AM 3312 by arithmetic, two years off. Herodotus is the only ancient source for the prediction.
+CLIP    837075f1 — the sun goes dark over the plain, soldiers of both armies lower their spears (shot 15) · 7 s · fwd-retro-fwd
+==============================================================================
+H11 · STATION 11/25 · mirror 15 · 1902 AD · AM 5796 · the chronoliths end
+TITLE   SHADOW LEAVES THE CIRCLE
+CLAIM   The chronoliths end: the shadow slides out of the circle's centre as a steam train's smoke crosses the field. 1902, the Red Mud Event.
+FACT    AM 5796 = 138 × 42. On 8 May 1902 Mont Pelée destroyed Saint-Pierre, Martinique, in minutes. 1902 + 138 = 2040.
+NATORI  Nineteen oh two. The shadow leaves the circle. The stones stop keeping time.
+ROGUE   Forty-second fire. Red mud in the rain. One left before the one she hasn't seen.
+CHECK   Mont Pelée, 8 May 1902, about 28,000 dead, is on every record; "red mud" as the year's signature is the chart's reading. The chronolith window (4309 BC to 1902 AD) is Breshears'.
+CLIP    37c527a2 — sun sets behind the standing stones, the shadow leaves the circle, train smoke on the field (shot 16) · 7 s · fwd-retro-fwd
+==============================================================================
+H12 · STATION 12/25 · mirror 14 · 2040–2046 AD · the projected fire
+TITLE   FIRE AGAIN
+CLAIM   The projected one: a burning streak over a lit coastline. The chart says the next fire is due, and the Codex gives it a margin.
+FACT    1902 + 138 = 2040 = AM 5934 = 138 × 43. The Codex's Chronologist: "as early as 2039, as late as 2046 for the worst of it."
+NATORI  Twenty forty. Or twenty forty-six. The one she hasn't seen.
+ROGUE   One thirty-eight from nineteen oh two. Same sky as the first frame.
+CHECK   2040 is arithmetic on the chart; 2046 is the Codex's margin, not a Long Count date — the 13th baktun ended 21 December 2012. Nothing in this station is on any record yet.
+CLIP    5ffe62eb — burning streak over the lit coastline, crane down to the waves (shot 17, mirror of shot 3) · 7 s · fwd-retro-fwd
+==============================================================================
+H13 · STATION 13/25 · mirror 13 · AXIS · 2815 BC · AM 1080 · the shaft to the star
+TITLE   THE SHAFT TO THE STAR
+CLAIM   From the Upper Chamber a shaft rises through solid masonry to one steady star. The stone points at a date, and the date is the axis of everything.
+FACT    The Upper Chamber's southern shaft rises at about 45° and pointed at Alnitak in Orion's belt c. 2450 BC; the northern one at Thuban. The book's completion year is 2815 BC, AM 1080.
+NATORI  One star at the end of the stone. The whole film turns here.
+ROGUE   Twelve fires behind us. Twelve chambers ahead. Look up.
+CHECK   Shaft alignments follow Trimble (1964) and Bauval; Egyptology dates them to Khufu's reign c. 2560 BC; the chart's pyramid is finished in 2815 BC. The shafts' purpose has never been established.
+CLIP    92006f26 — looking up the shaft from the King's Chamber to one bright star (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H14 · STATION 14/25 · mirror 12 · 2815 BC · the Upper Chamber
+TITLE   NO KING, NO BODY
+CLAIM   A room of red granite, ten by twenty cubits, with an empty lidless coffer: no king, no body, no inscription. The book renames it.
+FACT    Petrie: 412.26 × 206.13 × 230.09 in, a 2:1 floor. The coffer rings when struck. No burial goods have ever been found in the pyramid.
+NATORI  They called it the King's Chamber. No king. No body.
+ROGUE   Upper Chamber. Ten by twenty cubits. A pyramid folded inside a room.
+CHECK   The Victorian name is Egyptology's; the empty coffer is usually explained by robbery through the well shaft before al-Ma'mun's entry c. 820 AD. Petrie's figures are his 1883 survey.
+CLIP    fe0cee37 — the red granite chamber, the lidless coffer, dust in lamplight (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H15 · STATION 15/25 · mirror 11 · the Antechamber
+TITLE   THE GRANITE LEAF
+CLAIM   Before the Upper Chamber a granite leaf hangs in grooves, and on its face one small raised boss stands out, deliberate and precise.
+FACT    The leaf is two granite slabs in vertical wall grooves; the boss on the upper slab is about an inch proud and five inches wide. Three further portcullis grooves stand empty.
+NATORI  A door that was never lowered. And a boss on its face nobody explains.
+ROGUE   Machined, or measured. The stone doesn't say which.
+CHECK   Egyptology reads the grooves as a portcullis system never completed; Petrie measured the boss and called it an unfinished projection. Its function is not established.
+CLIP    7797b7de — the granite slab in its grooves, the single raised boss in raking lamplight (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H16 · STATION 16/25 · mirror 10 · the relieving chambers
+TITLE   FORTY-THREE BEAMS
+CLAIM   Five low rooms of stacked granite beams stand above the Upper Chamber and carry the mountain's weight around it. The book counts the beams.
+FACT    Davison found the first chamber in 1765; Vyse blasted into four more in 1837. About 43 beams in five chambers, and 43 × 138 = 5,934, the AM year of 2040.
+NATORI  Forty-three granite beams above that chamber.
+ROGUE   Times one thirty-eight. Twenty forty. The roof counts too.
+CHECK   Vyse's chambers carry the builders' red-paint gang marks with Khufu's name, Egyptology's key dating evidence; the beam count varies by source. 43 × 138 is arithmetic; the reading is the book's.
+CLIP    e0f9e03b — the cramped space between the granite beams above the King's Chamber (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H17 · STATION 17/25 · mirror 9 · the Great Step
+TITLE   THE GREAT STEP
+CLAIM   The Grand Gallery ends at one waist-high block whose vertical face is the pyramid's exact centre line. The gallery stops where the geometry says stop.
+FACT    The Great Step's face stands on the pyramid's centre line. The Gallery climbs 1,815.5 in, 88 cubits by the book, at about 26° 17′ in seven corbelled courses.
+NATORI  Eighty-eight cubits up. One step. Dead centre of the whole stone.
+ROGUE   The gallery stops where the geometry says stop.
+CHECK   Gallery angle and the centre-line reading of the step are Petrie's (1883) and Maragioglio and Rinaldi's; "88 cubits" depends on a 20.62-in cubit and the book's 1,815.5-in length.
+CLIP    49c8832b — the top of the Grand Gallery and the Great Step (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H18 · STATION 18/25 · mirror 8 · the Gallery, looking down
+TITLE   TWENTY-SEVEN PAIRS
+CLAIM   From the step the corridor plunges away, corbelled walls closing to a small warm glow far below, twenty-seven pairs of slots running down both ramps.
+FACT    27 pairs of slots along the side ramps; seven corbels; 28 ft high. The Codex reads the Gallery as a channel; the book says the slots are "not scaffolding".
+NATORI  Twenty-seven pairs of slots. For what?
+ROGUE   Not scaffolding. Something sat in them.
+CHECK   Egyptology's readings: sockets for the beams that held the plug blocks before sealing, or for a wooden frame. Nothing from the slots survives. Sources count 27 or 28 pairs.
+CLIP    4f458374 — from the Great Step looking down the Gallery to the glow below (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H19 · STATION 19/25 · mirror 7 · the Gallery from the foot
+TITLE   EVERYTHING GOES UP
+CLAIM   Seen from its foot the Gallery is a corridor climbing into darkness, the tallest room in the pyramid, built for something that went up. Above it, a sealed hollow.
+FACT    About 153 ft long on the slope, 28 ft high, 7 ft wide at the floor narrowing to under 4 ft at the ceiling. The 2017 ScanPyramids void above it is at least 100 ft long.
+NATORI  Everything in this stone goes up. Even the emptiness above it.
+ROGUE   A hollow the length of the gallery. Sealed. Still keeping records.
+CHECK   The ScanPyramids "Big Void" (Nature, 2 November 2017) is about 30 m long, unentered, purpose unknown. The Gallery's dimensions are Petrie's.
+CLIP    62cb2b1f — the Grand Gallery from its foot, climbing into darkness (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H20 · STATION 20/25 · mirror 6 · the Lower Chamber
+TITLE   EXACTLY AS INTENDED
+CLAIM   A hundred feet under the foundation, a rough chamber with a flat, precise ceiling over a chaos floor and a square pit: unfinished, or exactly as intended.
+FACT    Ceiling about 138 in; width about 553 in, and 138 × 4 = 552. Cut from bedrock, not built; the pit was deepened by 19th-century excavators.
+NATORI  A hundred feet under the foundation. Ceiling, one thirty-eight inches.
+ROGUE   Unfinished? Exactly as intended.
+CHECK   Egyptology: an abandoned first burial chamber (Borchardt's change-of-plan theory). Petrie gives 553 × 325 in with the floor never levelled; the 138-in ceiling is the book's figure.
+CLIP    d08c1b70 — the unfinished chamber in the bedrock, the square pit, one lamp (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H21 · STATION 21/25 · mirror 5 · the Descending Passage
+TITLE   THROUGH SOLID ROCK
+CLAIM   A square passage drops straight through masonry and bedrock for 345 feet at 26° 31′ without wandering the width of a finger.
+FACT    Petrie: 26° 31′ 23″, straight to within a quarter inch over 350 ft; 41.2 in high, 47.2 in wide. Its mouth opens north.
+NATORI  Three hundred forty-five feet. Twenty-six degrees, thirty-one minutes.
+ROGUE   Through solid rock, and it never wanders.
+CHECK   Petrie's straightness figure is the record. The pole-star aim (Thuban nearest the pole c. 2830 BC) is the alternative reading; Egyptology assigns the passage no astronomical function.
+CLIP    23b1aecf — the long straight passage descending into blackness, one lamp at the near end (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H22 · STATION 22/25 · mirror 4 · the north face
+TITLE   THE REAL DOOR
+CLAIM   High on the north face two colossal blocks lean together in a chevron over the original entrance, a gable that carries the face's weight around the door.
+FACT    The original entrance sits about 55 ft above the base and 24 ft east of centre; the gable is paired limestone blocks. Visitors enter by al-Ma'mun's tunnel below it.
+NATORI  The real door. Above the one they cut.
+ROGUE   Two stones leaning on each other for four thousand years.
+CHECK   Entrance position from Petrie and Maragioglio and Rinaldi; the gable's structural purpose is accepted. Al-Ma'mun's forced entry c. 820 AD rests on al-Maqrizi and is disputed in detail.
+CLIP    a4fd6abe — the chevron gable over the concealed entrance on the north face in late light (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H23 · STATION 23/25 · mirror 3 · the casing
+TITLE   A FIFTIETH OF AN INCH
+CLAIM   At the foot of the pyramid polished white casing blocks lie half-buried and cracked by weight: what the earthquake and Cairo left of a mirror.
+FACT    Petrie: casing joints average 1/50 in, filled with cement across faces of about 35 sq ft. The earthquake of 1303 loosened the casing; Cairo's builders carted off the rest.
+NATORI  Joints a fiftieth of an inch. Thinner than a fingernail.
+ROGUE   What the flood couldn't strip, a building boom did.
+CHECK   Petrie (1883) on the joints; al-Maqrizi on the 1303 quake; the Sultan Hassan mosque attribution is tradition, not survey. Casing stones survive in place at the base.
+CLIP    b325083c — polished casing blocks half-emerged from sand and rubble, a lantern (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H24 · STATION 24/25 · mirror 2 · the dawn face
+TITLE   ONE SHEET OF LIGHT
+CLAIM   At dawn one whole face is a single sheet of polished limestone catching the first sun: the building seen, once, as it was built.
+FACT    203 courses stand; the face slope is 51° 52′. A 612-ft face is 7,344 in, the same number as the years from 5239 BC to 2106 AD.
+NATORI  Two hundred three courses. One face. One sheet of light.
+ROGUE   Six hundred twelve feet. Seven thousand three hundred forty-four inches. The count, in stone.
+CHECK   Surveys give 201–210 courses (203 usual); the face slope measures about 186 m, ≈ 611 ft. 612 × 12 = 7,344 is arithmetic; matching it to the span is the book's reading.
+CLIP    a730fdcf — dawn on the white casing face, one slow tilt (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+H25 · STATION 25/25 · mirror 1 · the stone from far
+TITLE   THE STONE FROM FAR
+CLAIM   From far out on the flat desert at midday the pyramid hangs in heat shimmer above the sand: a building seen from as far away as time allows.
+FACT    Base 9,068.8 in a side (Petrie), 13.1 acres, level to 2.1 cm, aligned to true north within about 4′. Original height 5,776 ± 7 in.
+NATORI  From here it isn't a tomb. It's a number you can see from the road.
+ROGUE   Seven thousand three hundred forty-four. The count closes where it opened.
+CHECK   Petrie's base, height and alignment figures (1883) stand; the north alignment is 3′ 43″ west of true north. "A number you can see" is the book's reading, not a survey's.
+CLIP    df1e454e — the Great Pyramid on the desert horizon at midday, hanging in heat shimmer (Giza 3.0) · 10 s · fwd-retro
+==============================================================================
+
+WHERE THE CHART, THE BOOK AND THE RECORD DIFFER — flagged on screen in the CHECK lines:
+• 5239 BC, 4309 BC, 3439 BC, 3895 BC: Breshears' Chronicon dates; no archaeological anchor for any of them. Ussher 4004 BC and the Hebrew calendar 3761 BC are the competing creations.
+• Stone circles: nothing dated to 4309 BC; Göbekli Tepe c. 9500 BC, Stonehenge's sarsens c. 2500 BC.
+• The Flood: no global geological layer; Mesopotamian flood deposits c. 2900 BC are local. AM 1656 is the Masoretic sum (Septuagint 2242).
+• Ogyges: Africanus c. 1796 BC, Varro c. 1600 BC; the shot caption's 1688 is 1687 by the Chronicon rule.
+• Thales: the Halys eclipse is 28 May 585 BC; the chart's 583 BC is arithmetic on 138 × 24.
+• 1902: Mont Pelée is the recorded disaster; "red mud" is the chart's signature. 2046 is the Codex's margin, not a Long Count date.
+• The pyramid: shafts dated to Khufu's reign c. 2560 BC against the book's 2815 BC; Vyse's gang marks with Khufu's name are the key dating evidence; the Big Void is unentered; the granite leaf's boss and the gallery slots are unexplained by any side; 203 courses and ≈ 611 ft are survey figures, 612 × 12 = 7,344 is the book's match.
+• Arithmetic checked: 5239 + 2106 − 1 = 7,344 · 5239 − 3895 = 1,344 · 5239 − 4309 = 930 · 3895 − 1656 = 2239 · 2239 − 1656 = 583 · 2239 − 792 = 1447 · 2239 + 1200 = 3439 · 138 × 12 = 1,656 · 138 × 16 = 2,208 · 138 × 24 = 3,312 · 138 × 42 = 5,796 · 138 × 43 = 5,934 · 1902 + 138 = 2040 · 138 × 4 = 552 · 612 × 12 = 7,344 · 36 + 25 × 19 = 511 · 511 × 24 = 12,264.
+
+Capstone fork: unruled. 2106 AD = AM 6000 is not a 138-multiple (43.478); the spine's 44th node is AM 6072 = 2178 AD. No line above takes a side.
+
+READS THE SAME RETURNING · 19138 · 83191

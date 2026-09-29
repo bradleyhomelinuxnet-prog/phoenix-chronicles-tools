@@ -1,0 +1,213 @@
+LIVE ON TIME . EMIT NO EVIL  --  REEL D : THE LADDER
+Cutting script v1.  Assembled 27 Sep 2026.  ZERO NEW GENERATIONS.
+==============================================================================
+
+WHAT THIS REEL IS
+  Movement I of the Master Walk ends at AM 6000 / 2106 AD -- THE CAPSTONE.
+  The base-138 spine does not end there. Its 44th node is AM 6072 / 2178 AD,
+  seventy-two years further on. Reel D is the walk past the end of the film
+  we already made. Movement III.
+
+RUNTIME LOCK
+  23 slots x 15.000 s = 345.000 s = 138 x 2.5
+  Same shape as Reel C and Nobody's Body. 1920x1080, 24 fps, 8,280 frames.
+
+CARD ORDER
+  TITLE, MIRROR, beats 01-09, AXIS, beats 10-18, FORK, LOOP.
+  18 beats is even, so the palindromic axis falls BETWEEN 09 and 10 --
+  the AXIS card sits in the seam, not on a beat. Beat 09 ends
+  "That's the next one." Beat 10 opens "Twenty-one seventy-eight."
+
+AUDIO
+  Every source clip carries its own baked lip-synced dialogue from the
+  Master Walk shoot. All of it is MUTED. Reel D's dialogue is burned
+  caption only. This follows Nobody's Body, which reused these same clips
+  under new narration.
+
+LIP-SYNC RULE -- READ THIS BEFORE CUTTING
+  Reused clips have mouths moving to the wrong words. Cut to segments where
+  faces are turned, in profile, backlit, at distance, or backs-to-camera.
+  Avoid any front-on close two-shot. Where a clip's middle third is a close
+  frontal, use its outer thirds and re-time the caption.
+
+==============================================================================
+SEQUENCE
+------------------------------------------------------------------------------
+SLOT  TIME     CONTENT                          SOURCE
+------------------------------------------------------------------------------
+ 01   0:00.000 CARD -- TITLE                    black + struck bell
+                 REEL D : THE LADDER
+                 "The charts stopped at twenty."
+
+ 02   0:15.000 CARD -- MIRROR                   black
+                 frame k mirrors 19-k
+                 the axis is the seam, not a stone
+
+ 03   0:30.000 B01  spine past twenty           hf_20260925_111418_042abd49-f2ca-44fa-8c3f-874ed264d9ae
+                 AM 2760 . 1135 BC . PHOENIX 20 . THE AXIS
+ 04   0:45.000 B02  the passage and the cycle   hf_20260926_023529_4d70978e-970b-4444-acfc-24b083134655
+                 THE DESCENDING PASSAGE . 26 31'
+ 05   1:00.000 B03  whose inches                hf_20260926_004344_03f689d4-8fd7-4dae-98f7-717a18510096
+                 THE SURVEYOR AT NIGHT . 1881
+ 06   1:15.000 B04  three vertebrae             hf_20260925_172409_bfdb03cb-4562-4b43-a8de-8a79b28f56a2
+                 AM 5658 . 1763 AD . PHOENIX 41 . NINETEEN GUNS
+ 07   1:30.000 B05  one fact in three coats     hf_20260925_174427_6d583964-d8e2-4cd7-9c1f-dc05fc1c2fc3
+                 AM 5796 . 1902 AD . PHOENIX 42 . RED MUD
+ 08   1:45.000 B06  flip eight-three-one        hf_20260925_175950_5998d84a-1664-4f6a-8356-bfcc5be6497e
+                 AM 5934 . 2040 AD . PHOENIX 43 . THE ONE SHE HASN'T SEEN
+ 09   2:00.000 B07  a million hundred thousand  hf_20260925_224930_d626fac1-4584-4cac-9872-865b581dc54f
+                 2815 BC . ONLY NUMBERS
+ 10   2:15.000 B08  it came off the sky         hf_20260925_233949_13c694aa-9bdc-4511-9cf2-4dc3704dd22e   [LOCAL]
+                 1250 BC . A MODEL OF THE SKY
+ 11   2:30.000 B09  what's twenty-four          hf_20260925_181525_cc15175c-ac9d-4ffc-8809-f76a7f006409
+                 AM 6000 . 2106 AD . THE CAPSTONE
+
+ 12   2:45.000 CARD -- AXIS                     black, held
+                 AM 6000 is not on the spine.
+                 AM 6072 is.
+
+ 13   3:00.000 B10  two turns past nineteen-oh-two  hf_20260926_030721_881212a6-b8f2-4fae-b746-99502a23e385  [LOCAL]
+                 2017 AD . THE SEALED HOLLOW
+ 14   3:15.000 B11  the only claim that can fail    hf_20260926_010437_7e77a104-ef43-4a0d-ad41-bc1a2ca4ff0d
+                 2023 AD . THIRTY-TWO YEARS TO THE DAY
+ 15   3:30.000 B12  ten eighty-nine turns around    hf_20260925_231807_f038a199-78e7-4994-ba20-f5a5c3e1c878
+                 450 BC . THE PRIESTS GUESS
+ 16   3:45.000 B13  there is no third               hf_20260926_021049_14b2522d-46bd-4ec2-995c-03939a767664  [LOCAL]
+                 1837 AD . IT RINGS
+ 17   4:00.000 B14  ROGUE STOPS -- base twelve      hf_20260926_014334_cbccce1a-a876-43ed-9ee3-99fd3a160110  [LOCAL, CUT]
+                 1837 AD . NO KING, NO BODY
+ 18   4:15.000 B15  nine rungs, one palindrome      hf_20260925_160443_8326b4c6-2653-4ced-9187-5d01a1145440
+                 AM 5244 . 1349 AD . PHOENIX 38 . TWICE NINETEEN
+ 19   4:30.000 B16  the modulus picked it           hf_20260925_115638_a78e74a5-7f0a-4205-82be-570c4f43ac02
+                 AM 3036 . 859 BC . PHOENIX 22 . ASSYRIA MARCHES
+ 20   4:45.000 B17  they touch exactly once         hf_20260926_002022_93e62079-f409-4243-a777-bc5926f7d7d7
+                 2560 BC . KHUFU FOUND THEM
+ 21   5:00.000 B18  she does not answer             hf_20260925_190527_b71ee57a-b357-4a02-9777-9c2a0e4a0064
+                 AM 1 . 3895 BC . YEAR ONE . THE BLACK FLAT
+
+ 22   5:15.000 CARD -- FORK                     black
+                 The Codex ends at six thousand.
+                 The spine does not end.
+                 Seventy-two years apart.
+
+ 23   5:30.000 CARD -- LOOP                     black + struck bell
+                 -> returns to slot 01
+
+==============================================================================
+WHY THESE CLIPS
+
+  B01 is the epoch stone. 1135 BC is AM 2760 = 138 x 20. The walk's own
+      Phoenix 20 clip IS the beat -- the stake was never arbitrary.
+  B16 lands on AM 3036, the Phoenix 22 clip. The number 3036 appears twice
+      in this universe in different roles: as an AM year (859 BC) and as the
+      span 1135 BC -> 1902 AD. B16 is where the reel points at that.
+  B21 returns to AM 1 under an unanswered question, so the LOOP card closes
+      the same way Movement II closes the Master Walk.
+
+==============================================================================
+CAPTION STYLE  (matches the proof cut)
+
+  top left      REEL D . THE LADDER            30px bold, 0xE8D7B0 @ 0.92
+                BEAT nn / 18                   24px, 0xE8D7B0 @ 0.60
+  above box     speaker label                  24px, ROGUE 0x9EC9F0 / NATORI 0xF0C89E
+  bottom        dialogue                       40px bold white, black box @ 0.42
+  cards         struck bell on TITLE and LOOP only
+
+==============================================================================
+DIALOGUE -- 18 BEATS
+
+B01 NATORI  The old charts stopped at twenty. Nobody ran it past that.
+            Twenty-two turns of one-thirty-eight is three thousand thirty-six.
+            Lay that against the eleven-thirty-five stake and it doesn't drift.
+            It lands. Nineteen-oh-two.
+B02 ROGUE   Lands on what.
+    NATORI  On the year the sky opened. And three thousand thirty-six is the
+            Descendant Passage, in pyramid-inches. The corridor and the cycle
+            are the same number.
+B03 ROGUE   Whose inches? Every surveyor down there hands you a different figure.
+    NATORI  Which is why I'm not leaning on it. Set the stone aside.
+            The spine holds without it.
+B04 NATORI  Twenty-one. Twenty-two. Twenty-three. Seventeen sixty-four.
+            Nineteen-oh-two. Twenty forty. Three sightings, consecutive.
+            They sit on it like vertebrae.
+B05 ROGUE   They're a hundred thirty-eight apart. That's one fact wearing
+            three coats. Unless --
+    NATORI  Unless the outer two were logged before anyone drew the spine.
+    ROGUE   Were they.
+    NATORI  Seventeen sixty-four was.
+B06 NATORI  Holo-date runs flip on eight-thirty-one. Turn it over.
+            One, three, eight. The engine doesn't reference the sigil, Rogue.
+            It manufactures it.
+B07 NATORI  Eleven thirty-five to nineteen-oh-two. One million, one hundred
+            eight thousand, eight hundred seventy-five days. Divide by the
+            tropical year. Three thousand thirty-six point zero zero.
+    ROGUE   That's not a witness. That's a conversion.
+B08 NATORI  It would be -- if I'd chosen the days. I didn't. Both ends are
+            pinned to eclipses. The count came off the sky, not off my
+            arithmetic. Run it yourself.
+B09 ROGUE   ...What's twenty-four.
+    NATORI  Twenty-one seventy-eight. Multiply it by four and it reads itself
+            backward. Eighty-seven twelve.
+    ROGUE   That's cute.
+    NATORI  That's the next one.
+
+                            -- AXIS --
+
+B10 ROGUE   Twenty-one seventy-eight.
+    NATORI  Two turns past nineteen-oh-two. Not the next sighting -- the one
+            after. If the spine's real, that's the one nobody alive gets to check.
+B11 ROGUE   Convenient.
+    NATORI  It's the opposite of convenient. It's the only claim on the board
+            that can fail. Everything else is back-dated. That one's exposed.
+B12 NATORI  Now do the number. Ten eighty-nine. Times nine -- ninety-eight
+            oh-one. That's ten eighty-nine backward. Multiply it and it turns around.
+B13 NATORI  Double it. Twenty-one seventy-eight. Times four -- eighty-seven twelve.
+            Backward again. Those two are the only four-digit numbers on earth
+            that do it. There is no third.
+B14 ROGUE   That's decimal. That's an accident of having ten fingers.
+            Write it in base twelve and your miracle evaporates.
+    NATORI  Yes.
+    ROGUE   ...Yes?
+B15 NATORI  I'm not arguing it's cosmic. I'm arguing it's forced. Ten eighty-nine
+            has nine multiples before it runs out of digits. They fold in pairs.
+            Dead center, fifty-four forty-five. Reads the same either way.
+B16 NATORI  Nine rungs. One palindrome at the axis. And I asked which of the nine
+            lands on the one-thirty-eight spine.
+    ROGUE   How many.
+    NATORI  One. Twenty-one seventy-eight. I didn't pick it. The modulus did.
+B17 ROGUE   You're telling me the ladder and the spine touch exactly once.
+    NATORI  Once in nine. And it's the rung that turns around when you multiply it.
+B18 ROGUE   And what's supposed to happen in twenty-one seventy-eight.
+    NATORI  (does not answer -- keeps walking)
+
+==============================================================================
+OPEN ITEMS
+
+1. THE CAPSTONE FORK -- unresolved, and it is load-bearing.
+   Extended Phoenix Timeline: Capstone at 2106 AD = AM 6000. Not a 138 node
+   (6000 / 138 = 43.478). The spine's 44th node is AM 6072 = 2178 AD.
+   Two terminal structures, 72 years apart. Three ways to rule:
+     a) Capstone canon  -> spine terminates early; 2040 is the last true node;
+                           beat B11 is wrong and needs rewriting.
+     b) Spine canon     -> the Capstone is a round-number artifact.
+     c) Both in tension -> the 72-year gap is what the reel is about.
+   Reel D as written assumes (b). The FORK card at slot 22 is where a ruling
+   of (c) would go instead. One line to change now.
+
+2. DESCENDANT PASSAGE = 3036 PYRAMID-INCHES -- still unsourced.
+   Whole-corridor figures don't fit (~2,300 or ~4,140 in depending on survey).
+   Petrie's Point of Intersection at 1,110.64 in subtracted from the sloping
+   length to the Subterranean Chamber lands near 3,030 -- so the figure is
+   probably the segment BELOW the Point of Intersection, not the passage.
+   B03 quarantines it on purpose. Find the source before promoting it.
+
+3. TWELVE SPINE CLIPS speak the appendix year one year early. Reel D uses
+   B04 (1763 for 1764) and B18 (1349 for 1350) from that set. The Reel D
+   chyron above follows the spoken line, same as the Master Walk.
+
+==============================================================================
+SHOT, PROVEN
+  ReelD_Beat14_Proof_v1.mp4 -- slot 17, 15.000 s, 360 frames, captions burned,
+  clip audio muted. Source clip was already a stop-and-face-each-other
+  two-shot with both faces turned away from lens: the beat needed no
+  generation at all. Camera drifts back and settles exactly as written.

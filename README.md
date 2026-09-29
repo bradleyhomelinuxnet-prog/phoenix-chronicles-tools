@@ -23,6 +23,10 @@ All three are **fully self-contained** — one HTML file each, no build step, no
 | [codex/PhoenixCODEX138.txt](codex/PhoenixCODEX138.txt) | Working notes from the **Phoenix CODEX 138 Palindromic** manuscript. |
 | [codex/PhoenixCODEX138_Palindromic.txt](codex/PhoenixCODEX138_Palindromic.txt) | Amazon product description for the book. |
 
+### Film production kit — [`films/`](films/README.md)
+
+The written side of the walker films (*LIVE ON TIME · EMIT NO EVIL*), the *Ere We Were* station films and *The Chronologist's Machine*: handoffs and production notes, validated station sheets, the **station-film** skill with its validator, the timed transcripts of the 59-clip walker archive, and the generators that built the films (captioning pipeline, audio beds, voice mix, Remotion engine source). Video is not stored here.
+
 ## Live deployment
 
 The instrument trio also lives at **[hollywood-rogue-ai-ventures.w3spaces.com](https://hollywood-rogue-ai-ventures.w3spaces.com/PSYFR1.html)**:

@@ -1,0 +1,458 @@
+LIVE ON TIME  .  EMIT NO EVIL  --  PLANETWALKER NOTES
+Assembled 26 Sep 2026. Two finished films + one reel still to shoot.
+==============================================================================
+
+1) THE MASTER WALK  --  LiveOnTime_MasterWalk_Loop_v1.mp4
+   966.000 s  =  138 x 7   (16:06, endless loop, 1920x1080 24fps, AAC 48k)
+   Movement I  THE SPINE   46 walks  690.000 s = 138 x 5   AM 1 -> AM 6000
+   Movement II THE STONE   13 walks  195.000 s            2900 BC -> 2040 AD
+   Cards: 5 s black + 19 + 19 + 19 + 19 = 81 s
+   Loop seam: Movement II ends 'It doesn't explain it.' -> loop card -> AM 1
+              'Genesis calls it the beginning.' / 'It isn't.'
+   Audio: each clip keeps its own lip-synced dialogue. No narration track over it.
+          Whole film normalised to -16 LUFS. One struck bell on each card.
+   Captions burned: rolling AM counter + year + Phoenix (top left),
+                    narration (amber italic, top centre),
+                    dialogue with speaker labels (bottom),
+                    the generation prompt itself (dim, bottom left).
+
+2) NOBODY'S BODY  --  NobodysBody_Doorway_v1.mp4
+   345.000 s  =  138 x 2.5   (5:45, 23 walks x 15 s)
+   Cut to the measurement narration you sent. Voice in at 19.000 s, out at 337.667 s.
+   Clip audio low-passed at 800 Hz and sidechain-ducked under the voice -- not muted.
+   Captions are the narration verbatim, timed off the transcript, in 8 sections.
+
+3) REEL C  --  THE NINETEEN CORE CLAIMS   NOT SHOT
+   19 frames x 15 s = 285 s; + four 15 s cards = 345.000 s.
+   Palindromic: frame k mirrors 20-k, frame 10 is the axis, frame 19 returns to frame 1.
+   Full shot list with dialogue is in the published cutting script.
+   Zero credits spent so far. Firing this is the first thing that would cost anything.
+
+==============================================================================
+
+SEQUENCE  --  MOVEMENT I : THE SPINE   (in cut order)
+------------------------------------------------------------------------------
+0:43    AM 1     3895 BC  YEAR ONE    THE BLACK FLAT                 hf_20260925_190527_b71ee57a-b357-4a02-9777-9c2a0e4a0064.mp4
+0:58    AM 138   3757 BC  PHOENIX 1   A CALENDAR REMEMBERS           hf_20260925_053827_e537c199-e4f4-4afc-a759-05846ff14c8d.mp4
+1:13    AM 276   3620 BC  PHOENIX 2   SALT WHERE THE SEA WAS         hf_20260925_055255_a2db5a62-a57f-4090-921f-bf71ec86e86a.mp4
+1:28    AM 414   3482 BC  PHOENIX 3   THE QUIET ONE                  hf_20260925_062604_5633641a-52a6-402a-a651-cd5985e91dc2.mp4
+1:43    AM 552   3344 BC  PHOENIX 4   THE SLOW MUD                   hf_20260925_061336_27a9d0c1-94d5-43e5-8503-25f28d609b54.mp4
+1:58    AM 690   3206 BC  PHOENIX 5   LIGHTS ON THE MOUNTAIN         hf_20260925_060351_d673fbd1-33d0-4081-bf13-e4062b0a2c55.mp4
+2:13    AM 828   3068 BC  PHOENIX 6   BUILDING THE CLOCK             hf_20260925_063638_46b7b32d-36e6-4a8d-900f-dd8b065363a8.mp4
+2:28    AM 966   2930 BC  PHOENIX 7   THE QUARRY                     hf_20260925_064702_626d6201-7b31-4bc7-9846-83c8f70e9cdc.mp4
+2:43    AM 1081  2815 BC  OFF-CYCLE   TWO HUNDRED THREE COURSES      hf_20260925_183650_7a3cd4ce-4846-4f09-832c-0a2d53f07b41.mp4
+2:58    AM 1104  2792 BC  PHOENIX 8   RED DUST                       hf_20260925_071605_f0a9f3a9-20e8-46d6-8c10-6a5c5c5385cd.mp4
+3:13    AM 1242  2654 BC  PHOENIX 9   NOBODY HOME                    hf_20260925_074357_e5030539-d88b-47dc-a67e-ef4e9ff5abea.mp4
+3:28    AM 1380  2516 BC  PHOENIX 10  WRONG BUILDER                  hf_20260925_075446_2cfed475-c153-41d9-8ed1-cd77f8c274c3.mp4
+3:43    AM 1518  2378 BC  PHOENIX 11  A BROWN SUN                    hf_20260925_080439_64604be2-3def-4b78-bf9b-e410d46cf3f6.mp4
+3:58    AM 1656  2239 BC  PHOENIX 12  THE FLOOD                      hf_20260925_081430_46b02e53-fa23-4987-9e24-6720c78a9381.mp4
+4:13    AM 1794  2101 BC  PHOENIX 13  DIGGING OUT                    hf_20260925_083958_0121ead8-fc08-4290-9350-ae5e9cded5ff.mp4
+4:28    AM 1932  1963 BC  PHOENIX 14  THE GROUND REMEMBERS           hf_20260925_085035_abd63788-0cdf-4f0e-b691-da28dbaf9170.mp4
+4:43    AM 2070  1825 BC  PHOENIX 15  A RUST MOON                    hf_20260925_085934_c2cf308d-68b4-46f0-aab2-75fb3e42b99f.mp4
+4:58    AM 2208  1687 BC  PHOENIX 16  THE FLOOD OF OGYGES            hf_20260925_093037_d259c218-b929-42da-a02e-34af6f16d704.mp4
+5:13    AM 2346  1549 BC  PHOENIX 17  THERA                          hf_20260925_095758_90cadcd3-c4ce-4cda-b26d-39f095f4ab03.mp4
+5:28    AM 2484  1411 BC  PHOENIX 18  ONE VALLEY                     hf_20260925_102125_a54207a3-d609-4603-b6e6-d25ce3e8596d.mp4
+5:43    AM 2622  1273 BC  PHOENIX 19  KADESH                         hf_20260925_104858_e62cab5c-1e66-4291-9b77-b2fb7860d84e.mp4
+5:58    AM 2760  1135 BC  PHOENIX 20  THE AXIS                       hf_20260925_111418_042abd49-f2ca-44fa-8c3f-874ed264d9ae.mp4
+6:13    AM 2898  997 BC   PHOENIX 21  THE SWORD                      hf_20260925_113746_78125f55-28b2-4d35-ac44-fbe43eec4f99.mp4
+6:28    AM 3036  859 BC   PHOENIX 22  ASSYRIA MARCHES                hf_20260925_115638_a78e74a5-7f0a-4205-82be-570c4f43ac02.mp4
+6:43    AM 3174  721 BC   PHOENIX 23  TEN TRIBES                     hf_20260925_121838_1a34704f-b7e8-47a1-bda5-1f9dd43dddb3.mp4
+6:58    AM 3312  583 BC   PHOENIX 24  THE MEDO-LYDIAN DARK           hf_20260925_124317_82764d1b-a1d5-460a-888e-cc77d70be268.mp4
+7:13    AM 3450  445 BC   PHOENIX 25  THE WALLS AGAIN                hf_20260925_130520_7485e8b9-7c53-4017-a302-4ca66bb76c16.mp4
+7:28    AM 3588  307 BC   PHOENIX 26  A RUST SKY                     hf_20260925_131803_e36cc759-b08a-4574-85a9-3ddd71e659ae.mp4
+7:43    AM 3726  169 BC   PHOENIX 27  THE GOLD GOES DOWN             hf_20260925_133123_b6006a98-2294-40f8-b678-3f0e07d45c39.mp4
+7:58    AM 3864  31 BC    PHOENIX 28  JUDEA AND ACTIUM               hf_20260925_134147_b7611ee6-3dad-4fa5-93b2-84ccef890dd2.mp4
+8:13    AM 4002  107 AD   PHOENIX 29  THE WRONG SUN                  hf_20260925_140232_66b59721-af48-42fd-9d3c-d3a36f6fbe25.mp4
+8:28    AM 4140  245 AD   PHOENIX 30  CARTS AT THE GATE              hf_20260925_141622_83189aca-6384-47f1-8201-e03bca44fe3b.mp4
+8:43    AM 4278  383 AD   PHOENIX 31  A TIMESTAMP                    hf_20260925_143011_11e9011d-e1d8-4bf4-b0a1-464e658844b8.mp4
+8:58    AM 4416  521 AD   PHOENIX 32  LIGHT WITHOUT BRIGHTNESS       hf_20260925_144407_160a1b9a-a9f5-4c9d-a31b-04e6f2ba480e.mp4
+9:13    AM 4554  659 AD   PHOENIX 33  THE CAMELS KNOW                hf_20260925_145430_499d9dd2-a4db-4745-8d17-02c6f873fa20.mp4
+9:28    AM 4692  797 AD   PHOENIX 34  DRAGONS, THEY WROTE            hf_20260925_150821_d245acd5-3198-4b8d-8eb5-8f6f20448975.mp4
+9:43    AM 4830  935 AD   PHOENIX 35  ELDGJA                         hf_20260925_152215_11a1ccbf-d3fa-4cdd-b725-f3756c1969a9.mp4
+9:58    AM 4968  1073 AD  PHOENIX 36  EMPTY SCAFFOLDS                hf_20260925_153700_d208227f-15a9-4ac5-80c5-b8dca5cc8fd4.mp4
+10:13   AM 5106  1211 AD  PHOENIX 37  SOMETIMES MEN                  hf_20260925_155048_56a7b648-605d-4336-957d-26fb4a20905c.mp4
+10:28   AM 5244  1349 AD  PHOENIX 38  TWICE NINETEEN                 hf_20260925_160443_8326b4c6-2653-4ced-9187-5d01a1145440.mp4
+10:43   AM 5382  1487 AD  PHOENIX 39  DRUMS ON THE TEMPLE            hf_20260925_161912_05e45b42-fede-4d6c-b8d6-859b2d0dce8e.mp4
+10:58   AM 5520  1625 AD  PHOENIX 40  CROSSES ON THE DOORS           hf_20260925_163607_e56faf78-50d5-4e8e-862b-f28c263c468f.mp4
+11:13   AM 5658  1763 AD  PHOENIX 41  NINETEEN GUNS                  hf_20260925_172409_bfdb03cb-4562-4b43-a8de-8a79b28f56a2.mp4
+11:28   AM 5796  1902 AD  PHOENIX 42  RED MUD                        hf_20260925_174427_6d583964-d8e2-4cd7-9c1f-dc05fc1c2fc3.mp4
+11:43   AM 5934  2040 AD  PHOENIX 43  THE ONE SHE HASN'T SEEN        hf_20260925_175950_5998d84a-1664-4f6a-8356-bfcc5be6497e.mp4
+11:58   AM 6000  2106 AD  AM 6000     THE CAPSTONE                   hf_20260925_181525_cc15175c-ac9d-4ffc-8809-f76a7f006409.mp4
+
+SEQUENCE  --  MOVEMENT II : THE STONE   (in cut order)
+------------------------------------------------------------------------------
+12:32   1 /13 2900 BC  MUD BRICK                      hf_20260926_000025_f810856d-82ec-464b-887f-bf27f6c70168.mp4
+12:47   2 /13 2815 BC  ONLY NUMBERS                   hf_20260925_224930_d626fac1-4584-4cac-9872-865b581dc54f.mp4
+13:02   3 /13 2700 BC  ASWAN                          hf_20260926_012049_6df7821c-f0ca-4692-b3ac-b517634b7979.mp4
+13:17   4 /13 2560 BC  KHUFU FOUND THEM               hf_20260926_002022_93e62079-f409-4243-a777-bc5926f7d7d7.mp4
+13:32   5 /13 1250 BC  A MODEL OF THE SKY             hf_20260925_233949_13c694aa-9bdc-4511-9cf2-4dc3704dd22e.mp4
+13:47   6 /13 450 BC   THE PRIESTS GUESS              hf_20260925_231807_f038a199-78e7-4994-ba20-f5a5c3e1c878.mp4
+14:02   7 /13 1837 AD  NO KING, NO BODY               hf_20260926_014334_cbccce1a-a876-43ed-9ee3-99fd3a160110.mp4
+14:17   8 /13 1837 AD  IT RINGS                       hf_20260926_021049_14b2522d-46bd-4ec2-995c-03939a767664.mp4
+14:32   9 /13 1865 AD  THROUGH SOLID ROCK             hf_20260926_023529_4d70978e-970b-4444-acfc-24b083134655.mp4
+14:47   10/13 1881 AD  WHEN THE STONE STOPS BREATHING hf_20260926_004344_03f689d4-8fd7-4dae-98f7-717a18510096.mp4
+15:02   11/13 2017 AD  THE SEALED HOLLOW              hf_20260926_030721_881212a6-b8f2-4fae-b746-99502a23e385.mp4
+15:17   12/13 2023 AD  THIRTY-TWO YEARS TO THE DAY    hf_20260926_010437_7e77a104-ef43-4a0d-ad41-bc1a2ca4ff0d.mp4
+15:32   13/13 2040 AD  IT DOESN'T EXPLAIN IT          hf_20260925_223415_b08ae5c1-8b34-48cb-8b8f-131202bdad34.mp4
+
+SEQUENCE  --  NOBODY'S BODY   (in cut order)
+------------------------------------------------------------------------------
+0:00    1 /23 THE DESCENDING PASSAGE  ·  26° 31'         hf_20260926_023529_4d70978e-970b-4444-acfc-24b083134655.mp4
+0:15    2 /23 THE GRAND GALLERY  ·  2023                 hf_20260926_010437_7e77a104-ef43-4a0d-ad41-bc1a2ca4ff0d.mp4
+0:30    3 /23 THE PLATEAU  ·  2040                       hf_20260925_223415_b08ae5c1-8b34-48cb-8b8f-131202bdad34.mp4
+0:45    4 /23 THE MASTABA FIELD  ·  2900 BC              hf_20260926_000025_f810856d-82ec-464b-887f-bf27f6c70168.mp4
+1:00    5 /23 EVERY DOOR OPEN  ·  2654 BC                hf_20260925_074357_e5030539-d88b-47dc-a67e-ef4e9ff5abea.mp4
+1:15    6 /23 LAYING THE LINE WITH WATER  ·  3068 BC     hf_20260925_063638_46b7b32d-36e6-4a8d-900f-dd8b065363a8.mp4
+1:30    7 /23 DIGGING OUT BY HAND  ·  2101 BC            hf_20260925_083958_0121ead8-fc08-4290-9350-ae5e9cded5ff.mp4
+1:45    8 /23 REBUILDING THE WALL  ·  445 BC             hf_20260925_130520_7485e8b9-7c53-4017-a302-4ca66bb76c16.mp4
+2:00    9 /23 TWO HUNDRED THREE COURSES  ·  2815 BC      hf_20260925_183650_7a3cd4ce-4846-4f09-832c-0a2d53f07b41.mp4
+2:15    10/23 THE SCRIBE AND THE STELA  ·  2560 BC       hf_20260926_002022_93e62079-f409-4243-a777-bc5926f7d7d7.mp4
+2:30    11/23 THE ASWAN QUARRY  ·  2700 BC               hf_20260926_012049_6df7821c-f0ca-4692-b3ac-b517634b7979.mp4
+2:45    12/23 THE SURVEYOR AT NIGHT  ·  1881             hf_20260926_004344_03f689d4-8fd7-4dae-98f7-717a18510096.mp4
+3:00    13/23 9,068 INCHES A SIDE  ·  2815 BC            hf_20260925_224930_d626fac1-4584-4cac-9872-865b581dc54f.mp4
+3:15    14/23 NAMING THE CHAMBERS  ·  1837               hf_20260926_014334_cbccce1a-a876-43ed-9ee3-99fd3a160110.mp4
+3:30    15/23 THE FRONTIER WALL  ·  1211 AD              hf_20260925_155048_56a7b648-605d-4336-957d-26fb4a20905c.mp4
+3:45    16/23 THE QUARRY  ·  2930 BC                     hf_20260925_064702_626d6201-7b31-4bc7-9846-83c8f70e9cdc.mp4
+4:00    17/23 A COLUMN TO THE HORIZON  ·  721 BC         hf_20260925_121838_1a34704f-b7e8-47a1-bda5-1f9dd43dddb3.mp4
+4:15    18/23 THE CANAL AND THE BARLEY  ·  2378 BC       hf_20260925_080439_64604be2-3def-4b78-bf9b-e410d46cf3f6.mp4
+4:30    19/23 THE HARBOUR MOLE  ·  307 BC                hf_20260925_131803_e36cc759-b08a-4574-85a9-3ddd71e659ae.mp4
+4:45    20/23 A LANE IN RED FOG  ·  1625 AD              hf_20260925_163607_e56faf78-50d5-4e8e-862b-f28c263c468f.mp4
+5:00    21/23 NINETEEN GUNS  ·  1763 AD                  hf_20260925_172409_bfdb03cb-4562-4b43-a8de-8a79b28f56a2.mp4
+5:15    22/23 THE BLACK SUN OVER THE HALYS  ·  583 BC    hf_20260925_124317_82764d1b-a1d5-460a-888e-cc77d70be268.mp4
+5:30    23/23 THE CAPSTONE  ·  AM 6000                   hf_20260925_181525_cc15175c-ac9d-4ffc-8809-f76a7f006409.mp4
+
+==============================================================================
+TAKES NOT USED (intact in the Higgsfield account, available as alternates)
+  - exact duplicate of the 2815 BC pyramid beat
+  - earlier single-frame-format takes of: Eldgja 935, cathedral 1073,
+    frontier wall 1211, Saint-Pierre 1902  (all reshot in walking format same day)
+
+KNOWN ITEM: twelve spine clips speak the Cosmic Measurements appendix year,
+one year early against AD = AM - 3894 (383 for 384, 935 for 936, 1349 for 1350...).
+The chyron follows the spoken line so nothing on screen contradicts the audio.
+Say the word and the chyron re-renders on the corrected years.
+
+================================================================================
+UPDATE -- 26 Sep, later: REEL C KEYFRAMES SHOT
+19 stills, Seedream 4.5, 1 credit each = 19 credits. Zero failures.
+Balance 67.85 -> 48.85. No video generated; the unlimited window is still closed.
+Files: PlanetWalker\ReelC-Keyframes\  (19 PNGs + ReelC_ContactSheet_v1.jpg)
+Cameras are paired palindromically: frame k and frame 20-k share a camera move.
+Each still is the start_image for its clip when the unlimited window reopens.
+Worth 1 credit each to reshoot first: 03 (reads Mesoamerican, not Mohenjo-daro),
+13 (live snake, not an earthwork), 14 (one pyramid tradition, not three), 17 (generic).
+Holding well: 01 and 19 rhyme on the same cart ruts; 10 holds the axis.
+
+================================================================================
+REEL C -- THE NINETEEN CORE CLAIMS  (assembled 26 Sep, audio-led)
+ReelC_NineteenCoreClaims_v1.mp4   345.000 s = 138 x 2.5   (8,280 frames @ 24fps)
+
+19 walks x 15 s + four 15 s cards (TITLE / MIRROR / AXIS / LOOP).
+Card order: TITLE, MIRROR, frames 01-09, AXIS, frame 10, frames 11-19, LOOP.
+All 19 shot Kling 3.0 pro, 15 s, sound on, MULTI-SHOT (three camera moves each:
+into-lens front runner / close two-shot / away-from-lens follow or crane).
+Each clip anchored to its own Seedream keyframe; both elements tagged.
+Palindromic: frame k mirrors 20-k, frame 10 unpaired axis, frame 19 returns to 01.
+
+AUDIO-LED CUT -- what changed:
+All 20 clips were transcribed first and the real spoken in/out points drive the
+caption track. Dialogue captions are frame-accurate to the audio, not estimated.
+Narration is burned caption only, placed in the silence the transcript actually
+shows -- there is no room for a spoken narrator (see below).
+
+KNOWN, from the transcripts:
+- Dialogue fills nearly the whole 15 s on every clip. Four scripted lines in a
+  15 s prompt leaves no air. Frames 06 and 16 speak 0.00-15.00 with zero silence.
+- Frames 04, 10 and the 1902 clip have their last line running to the final frame
+  (transcript ends 15.65 / 15.36 / 15.22 against a 15.04 s file) -- tight, and the
+  last word lands right on the cut.
+- FOR THE NEXT REEL: write TWO lines per 15 s clip, not four. The silence is what
+  lets the script lead the edit.
+
+1902 GIZA PARTITION (Movement II) -- shot, not yet assembled.
+Reisner / Steindorff / Schiaparelli dividing the necropolis by drawing lots.
+First keyframe came back cel-shaded and was re-rolled for 1 credit before the
+37.5 clip was fired. Crowd scenes in period dress pull Seedream toward
+illustration; the fix is hard photoreal anchors in the prompt.
+Slots between the 1881 surveyor and the 2017 void in the standalone Movement II,
+where 2017 also moves to the last slot so it closes on "Ones we can't read yet."
+
+================================================================================
+UPDATE -- 27 Sep: REEL D : THE LADDER  (cutting script written, one beat cut)
+ReelD_TheLadder_Cutting-Script_v1.txt   345.000 s = 138 x 2.5   23 slots x 15 s
+Movement III -- the walk past the end of Movement I. All 18 beats assigned to
+EXISTING Master Walk / Movement II clips. Zero credits spent, zero generations.
+Card order TITLE, MIRROR, 01-09, AXIS, 10-18, FORK, LOOP. 18 beats is even, so
+the axis falls in the seam between 09 and 10 rather than on a beat.
+
+CUT AND PROVEN: ReelD_Beat14_Proof_v1.mp4 -- slot 17, 15.000 s / 360 frames.
+Source hf_20260926_014334 (1837 NO KING, NO BODY) was already a stop-and-face-
+each-other two-shot with both faces off-lens. The beat needed no generation.
+Clip audio muted, dialogue burned bottom with speaker labels, chyron top left.
+
+LIP-SYNC RULE ADDED: reused clips move their mouths to the old lines. Cut to
+profile / backlit / distant / back-to-camera segments; avoid front-on close
+two-shots. This is the cost of reusing the walk pool for new dialogue and it
+decides which third of each clip is usable.
+
+FOUND, not previously charted:
+  1135 BC = AM 2760 = 138 x 20. The epoch stone is itself a spine node, so the
+  start point was never arbitrary -- the grid is native to Anno Mundi.
+  1902 AD = AM 5796 = 138 x 42, and 1764 = 42-squared. Same 42, adjacent nodes.
+  AM 3036 = 859 BC (Phoenix 22) is a different quantity from the 3036-year span
+  1135 BC -> 1902 AD. Both real; the reel points at the collision in B16.
+
+OPEN, load-bearing: THE CAPSTONE FORK. Extended Phoenix Timeline puts the
+Capstone at 2106 AD = AM 6000, which is NOT a 138 node (6000/138 = 43.478).
+The spine's 44th node is AM 6072 = 2178 AD. Two terminal structures 72 years
+apart. Reel D currently assumes the spine is canon. Needs a ruling before the
+reel locks -- see OPEN ITEMS in the cutting script.
+
+STILL UNSOURCED: "Descendant Passage = 3036 pyramid-inches." Whole-corridor
+figures don't fit. Petrie's Point of Intersection (1,110.64 in) subtracted from
+the sloping length to the Subterranean Chamber lands near 3,030, so the figure
+is probably the segment below the POI, not the passage. Quarantined in B03.
+
+================================================================================
+UPDATE -- 27 Sep, later: REEL D COMPLETE + TEASER SET. Still zero credits.
+All 14 missing walk clips pulled straight off the Higgsfield CDN. Pattern:
+https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/<the exact
+downloaded filename>.mp4 -- so any clip named in these notes is one curl away.
+Job metadata via MCP show_generation_by_ids (free read, no credits).
+
+THE CAPTION LAW, now derived rather than guessed. Every Master Walk clip was
+fired on the same Kling multishot template, so all 46 share one internal shape:
+    0-5 s    FRONT RUNNER, camera dollying back, faces held at fixed size
+    5-10 s   TIGHT CLOSE TWO-SHOT -- the characters are speaking their own lines
+    10-15 s  FOLLOW AWAY FROM LENS, returning to the opening frame
+New dialogue therefore goes at 0.6-4.8 and 10.2-14.8, and 5-10 stays EMPTY.
+That is the real reason two lines per 15 s works and four does not: the middle
+third was never available. Applies to any future reuse of this pool.
+
+DELIVERED (PlanetWalker\ReelD\):
+  ReelD_TheLadder_v1          345.000 s = 138 x 2.5, 8280 frames, 18 beats + 5 cards
+  ReelD_Teaser_138_v1         138.000 s, 3312 frames -- 8 beats, title + end card
+  ReelD_Teaser_69_v1          69.000 s  = 138 / 2, 1656 frames -- six 9 s one-liners
+  Short1_Vertebrae_9x16       15 s vertical, "1764 . 1902 . 2040"
+  Short2_NoThird_9x16         15 s vertical, "2178 x 4 = 8712"
+  Short3_2178_9x16            15 s vertical, "so what happens in 2178?"
+  B01-B18, C1-C5, full.txt, bell.wav  -- every slot as its own 15.000 s file
+Verticals are blurred-fill 1080x1920 with the 16:9 plate centred and the
+one-liner set in the lower third. Bells at 0.3 s and on the closing card.
+
+B14 is the one beat still carrying four lines: its source (1837 NO KING, NO BODY)
+came back off-template as a standing two-shot with both faces turned away, so
+the 5-10 s rule doesn't bind there.
+
+STILL OPEN: the Capstone fork. The FORK card and B11 both assert the spine
+outlives AM 6000. If that ruling flips, it is one card and two captions.
+
+================================================================================
+UPDATE -- 27 Sep, overnight: WHAT THEY ACTUALLY SAID. Zero credits.
+The caption treatment Bee called a keeper is now driven by TRANSCRIPTION, not
+by the generation prompts and not by estimates.
+
+METHOD (repeatable on any clip in the archive):
+ 1. faster-whisper base.en, vad_filter on -> real segment start/end per clip.
+ 2. Speaker ID by pitch: per-segment median F0 via autocorrelation over 70-300 Hz.
+    NATORI >= 135 Hz, ROGUE < 135 Hz.
+    VALIDATED against the one clip whose script was known (AM 2760 Atlantis):
+    151 / 115 / 183 / 106 Hz vs ground truth NATORI / ROGUE / NATORI / ROGUE.
+    Clean bimodal split across all 70 segments (quartiles 111 / 157 / 182).
+ 3. Caption in = segment start - 0.15 s, out = end + 0.30 s, wrapped at 46 chars,
+    two lines max, box black@0.45. Speaker label above the box in character colour.
+ 4. ORIGINAL CLIP AUDIO KEPT, loudnorm -16 LUFS. Nothing muted.
+
+CORRECTION TO THE EARLIER CAPTION LAW: speech does NOT start at 5 s. On the
+Atlantis clip it starts at 3.18 s and ends at 11.68 s. The 5-10 s rule was a
+guess off the prompt template and it was wrong. Transcribe, don't estimate.
+The 5-10 rule still stands ONLY for NEW dialogue written over a muted clip
+(Reel D); for the clip's own dialogue, use its transcript.
+
+DELIVERED (PlanetWalker\WhatTheySaid\):
+  LiveOnTime_WhatTheySaid_276_v1     276.000 s = 138 x 2, 6624 frames
+                                     18 walks, 3895 BC -> 2106 AD chronological
+  LiveOnTime_WhatTheySaid_Teaser_69  69.000 s = 138 / 2
+  LiveOnTime_TheStone_138_v1         98.000 s = 1:38  (the pyramid clips)
+  LiveOnTime_ModernFires_119_v1      79.000 s = 1:19  (1763 -> the capstone)
+  LiveOnTime_TheExcavators_138_v1    98.000 s = 1:38  (everyone who went in)
+  LiveOnTime_Palindrome_831_v1       511.000 s = 8:31, 12264 frames
+                                     TRUE palindrome: 16 out, unpaired axis,
+                                     16 back, returns to frame one.
+                                     Axis = W17 AM 5934 THE ONE SHE HASN'T SEEN.
+  W01-W18 as separate 15.000 s files, named by event; all six cards; the
+  concat list; and WalkClip_Transcripts_v1.json (every spoken line, timed).
+
+NEW STANDING DURATIONS from Bee: cut to 1:19-1:38, or exactly 8:31.
+
+================================================================================
+UPDATE -- 28 Sep, overnight: THE WHOLE ARCHIVE IS NOW CAPTIONED. Zero credits.
+Pulled the 41 clips that were still only in the Higgsfield account and ran the
+walk-clip-captioner pipeline over ALL 59. Every clip in the Master Walk,
+Movement II and Nobody's Body now exists as a 15.000 s file with its own spoken
+words burned in, frame-accurate, speakers named, original audio intact.
+
+SCALE CHECK: 59 clips, 220 spoken segments, 220 voiced and classified.
+Pitch quartiles 10/25/50/75/90 = 100 / 111 / 158 / 180 / 190 Hz -- clearly
+bimodal, so the 135 Hz NATORI/ROGUE threshold holds across the whole archive.
+94 segments ROGUE, 126 NATORI.
+
+FOUND WHILE SORTING: 43 of the 59 clips land exactly on a 138 multiple --
+the complete Phoenix sequence 138x1 (AM 138, 3757 BC) through 138x43 (AM 5934,
+2040 AD), with no gaps. The chyron now prints the multiple on every one of them.
+
+DELIVERED (PlanetWalker\WholeWalk\):
+  LiveOnTime_TheWholeWalk_966_v1      966.000 s = 138 x 7, 23184 frames
+                                      59 clips, 3895 BC -> 2106 AD, in seven
+                                      movements with their own cards:
+                                      BEFORE THE FLOOD / THE BUILDERS /
+                                      THE LONG BRONZE / THE AXIS AND AFTER /
+                                      EMPIRE AND ASH / THE MIDDLE FIRES /
+                                      THE MODERN FIRES
+  LiveOnTime_SixteenOutSixteenBack_831_v1  511.000 s = 8:31, 12264 frames
+                                      palindrome over the Phoenix nodes whose
+                                      unpaired axis is AM 2760 THE AXIS --
+                                      the palindrome's axis IS the chronology's
+  LiveOnTime_TheFloods_138_v1         98.000 s = 1:38
+  LiveOnTime_TheDarkSuns_138_v1       98.000 s = 1:38
+  LiveOnTime_TheClockBuilders_119_v1  79.000 s = 1:19
+  LiveOnTime_DragonsTheyWrote_119_v1  79.000 s = 1:19
+  clips\F01-F59 + all 18 cards, AllClips_Transcripts_v2.json (every spoken
+  line, timed), AllClips_Chyrons_v1.json, WholeWalk_concat_list.txt.
+
+KNOWN: whisper mishears a few proper nouns ("Gally's under a rust sky",
+"Before the jodel"). The transcript JSON is the place to correct them -- fix a
+line there and that one clip re-renders in about seven seconds.
+
+The walk-clip-captioner skill is saved and was used to produce all of this.
+
+================================================================================
+UPDATE -- 28 Sep: TWO NEW FORMS -- INFO AND ATMOSPHERE. Zero credits.
+Same house style, but neither one is a dialogue scene. Both live in
+PlanetWalker\InfoAndAtmosphere\.
+
+1) THE LEDGER -- LiveOnTime_TheLedger_138_v1.mp4   98.000 s = 1:38, 2352 frames
+   Pure information. All 43 Phoenix nodes at 2 s each, each one a frozen frame
+   from its own clip on a slow 10% push. No dialogue anywhere.
+   Layout: AM number top left, calendar year under it; 138 × n top RIGHT with
+   FIRE n OF 43 beneath it; event title bottom left. 0.10 s in / 0.12 s out.
+   Sound is synthesised, not from the clips: a 55/82.5/110 Hz drone with a
+   1320+660 Hz tick struck on every fire, so the arithmetic is audible.
+   NOTE: first build used 0.25 s fades -- a quarter of every 2 s entry was
+   black and it strobed. 0.10/0.12 is the right figure for a 2 s card.
+   CAUTION: `rm L*.mp4` also deletes LG_T/LG_E. Name cards differently next time.
+
+2) THE ATMOSPHERE PASS -- chyron only, NO dialogue captions, clip audio kept but
+   low-passed at 5.2 kHz and set to -20 LUFS, so the voices are texture rather
+   than information. Chyrons fade in over 1.2 s instead of cutting.
+   LiveOnTime_TheQuietOnes_138_v1.mp4      98.000 s = 1:38
+   LiveOnTime_WhatItLookedLike_119_v1.mp4  79.000 s = 1:19
+   Clips chosen by word count from the transcripts -- the twelve sparsest in the
+   archive run 9 to 15 words. Quietest: F52 THROUGH SOLID ROCK and F56
+   THIRTY-TWO YEARS TO THE DAY, both 9 words.
+   Every atmosphere clip is also saved on its own in atmos\ for recutting.
+
+Useful number from sorting the archive by speech: no clip is silent. The range
+is 9 to 20 words in 15 s. So "atmosphere" here is a TREATMENT, not a selection
+of different footage -- captions off, audio pushed back, chyrons slowed.
+
+================================================================================
+UPDATE -- 28 Sep, later: TWO CLOCKS, A NEW GRAMMAR, AND SIX SHORTS. Zero credits.
+
+THE FINDING: sorting all 59 clips by whether their AM year divides by 138 splits
+the archive cleanly in two. 43 sit exactly on the Phoenix grid. The other 16 sit
+on NOTHING -- and those 16 are almost entirely the Great Pyramid thread
+(2900 BC mud brick, 2815 Only Numbers, 2700 Aswan, 2560 Khufu, 1250 Model of the
+Sky, 450 the priests, 1837 x2, 1865, 1881, 2017, 2023, 2040), bookended by
+Year One and the Capstone. Two clocks in one archive. The fires run on 138;
+the stone does not.
+
+NEW FILMS (PlanetWalker\InfoAndAtmosphere\):
+  LiveOnTime_TheStonesOwnClock_119_v1   79.000 s = 1:19, 1896 frames
+     The 16 off-grid walks. 8 s title + 16 ledger stills at 2 s + two live
+     scenes (1881 surveyor, the Capstone) + 9 s close. Counter reads
+     "n OF 16 · OFF THE GRID". Drone at 58/87 Hz with a 990 Hz tick per entry --
+     a lower, duller bell than the Ledger's 1320 Hz, so the two info films are
+     audibly different clocks.
+     Closing card: "forty-three fires run on one hundred thirty-eight. /
+     the pyramid runs on something else."
+
+  LiveOnTime_Annotated_119_v1           79.000 s = 1:19, 1896 frames
+     A NEW GRAMMAR worth reusing: 2 s info card, then the 15 s scene it names.
+     Card is the clip's own frame, blurred and darkened 20%, with the AM number
+     centred large, the year, the multiple, and a one-line gloss. Then hard cut
+     into the live scene with its captions. Four pairs: 138x41 / 42 / 43 and
+     the Capstone. 5 s title + 4 x 17 + 6 s end = 79.
+     This is the pattern to use whenever a scene needs its number stated first.
+
+SHORTS (PlanetWalker\Shorts\) -- six 9:16, 15.000 s each, 1080x1920, built on
+REAL transcribed lines rather than written ones:
+  V1 YEAR ONE. AGAIN.              V2 NO BODY. NO INSCRIPTION.
+  V3 EVERY CYCLE SOMEONE DIGS OUT  V4 HALFWAY TO WHAT?
+  V5 26 31'                        V6 THE PYRAMID READS ITS OWN NUMBER
+Layout: AM+year small at y150, the hook at y1300 (68 px), the gloss at y1500
+(40 px), blurred-fill plate centred. Original audio kept at -16 LUFS.
+
+TRANSCRIPT ERRORS STILL IN THE JSON (fix these before the 966 goes public):
+  F29 "Bit from Mon"            F32 "The end is gonna live" / "the purse guests"
+  F45 "to the Harajan"          F26/F09 "Before the jodel"
+Correct the line in AllClips_Transcripts_v2.json and that clip re-renders in
+about seven seconds.
+
+================================================================================
+UPDATE -- 28 Sep, evening: ERE WE WERE GETS ITS QUICK FACT. Zero credits.
+Bee: "Ere-We-Were_Proof-45s_v1 is THE template" for Archaix bits and bytes from
+the two manuscripts; add a quick fact, mid-right, right-justified; adaptable.
+Handoff written (claude/Ere-We-Were_Handoff-To-Fable_v1.md) and Fable took over:
+  OMG2\remotion\src -- layer 9 QUICK FACT (right 72 / top 392 / max 620, mono
+  label, serif 34 px, in 4.6 s out 9.0 s), CLOCK.fact, fact on all 57 stations
+  (arithmetic-checked), Root.tsx generalised to any lane length, new FLOOD lane
+  F01 2239 BC AM 1656 / F02 1687 BC AM 2208 / F03 1135 BC AM 2760 (axis) /
+  F04 583 BC AM 3312. 61 stations, 4 lanes.
+RENDERED: Ere-We-Were_Proof-45s_v2_QuickFact (E01-E03, 1350 fr @30) and
+  EreWeWere_TheFloodChain_119_v1 (9 s title + 4 x 15 + 10 s end = 79 s).
+  Both on the Desktop root with FloodChain_ContactSheet_v1.jpg.
+SANDBOX RULES: Remotion needs headless_shell (full Chrome rejects old-headless);
+  render stations singly (~90 s each), multi-station comps hang; concat Remotion
+  parts with ffmpeg cards via the CONCAT FILTER (1/90000 vs 1/15360 timebases
+  break the demuxer + copy).
+
+================================================================================
+UPDATE -- 29 Sep, 05:44-06:31 EDT: ALL THE FLICKS DELIVERED. 24 films + 9 shorts
+into the chat (388 MB), Ere-We-Were proof and Flood Chain to the Desktop root.
+
+================================================================================
+UPDATE -- 29 Sep, 06:35-07:15 EDT: "LOTS HAD NO SOUND" -- FIXED, AND VOICES.
+DIAGNOSIS: 01 Ere-We-Were proof had NO audio stream (engine has no score);
+  Short1/2/3 were anullsrc (-70 LUFS); FloodChain, TowardAndAway x3 and TheLedger
+  had synthesised beds with 89-98% of their energy below 150 Hz (centroids
+  68-103 Hz) -- read -16 LUFS on a meter, read as silence on a laptop/phone.
+  Dialogue films were fine (-16/-17 LUFS through a 200 Hz laptop filter).
+FIX: harmonic enrichment of the existing beds (envelope-flattened sub drone ->
+  Chebyshev harmonics 2-12 weighted to the 3rd-6th -> 140 Hz high-pass -> mixed
+  at 1.8x drone RMS, ticks +6 dB, 90 s chunks / 3 s crossfades for the 831);
+  a house bed synth (55 Hz + harmonics 2-12, 528 Hz struck bell at hooks,
+  990 Hz tick, 110 Hz thud at exit) for the proof and the three shorts.
+  Picture untouched (-c:v copy), frame counts verified. Now 63-71% of energy
+  in 150-800 Hz; -16.3 to -16.7 LUFS full, -18.4 to -19.0 through the laptop
+  filter.
+RULE: every bed gets the laptop test (highpass 200 Hz then EBU R128). Under
+  -22 LUFS through it = not delivered. Sub-only drones are for cinemas.
+DELIVERED as *-scored versions beside the originals (nothing overwritten):
+  Desktop\Ere-We-Were_Proof-45s_v3_QuickFact-scored, Desktop\EreWeWere_TheFloodChain_119_v2-scored,
+  TowardAndAway\..._831_v2-scored_small (12 MB 854x480; the full 27 MB is in the chat),
+  ..._138_v3-scored, ..._119_v2-scored, InfoAndAtmosphere\LiveOnTime_TheLedger_138_v2-scored_web,
+  Shorts\Short1/2/3_..._v2-scored.
+VOICES (ElevenLabs, ~1,200 credits = ~$0.20, one take per line, 14 lines):
+  Natori = Sarah (EXAVITQu4vr4xnSDxMaL), Rogue = Chris R. Glass (vrZ1gMhrsD9LI0gRKrLh),
+  eleven_multilingual_v2, flow https://elevenlabs.io/app/flows/0jY8wi44gJnMn97KZ6wH
+  Mix: Natori in at 2.4 s, Rogue at 8.6 s or 0.35 s after her, nothing past
+  14.4 s; lines silence-trimmed, <=1.12x atempo, levelled to one RMS; bed ducks
+  7.5 dB under speech; loudnorm -16.
+  Desktop\Ere-We-Were_Proof-45s_v3_QuickFact-Voiced, Desktop\EreWeWere_TheFloodChain_119_v2-Voiced.
+OPEN: Rogue in Bee's own clone (BradleyCloneToo2) if he says "clone".
+
+CINEMA STUDIO INVENTORY (other chat, 28 Sep 21:56-22:27 EDT): 12 x 3.5 event
+shots for The Chronologist's Machine (shots 3,4,5,7,8,9,10,11,12,15,16,17) +
+13 x 3.0 Giza interiors. Ids, prompts, URLs: cinema_studio_gens.json.
+Full two-day ledger: Phoenix-Chronicles_Handoff_2026-09-29_v1.md (beside this file).

@@ -1,0 +1,510 @@
+[
+ {
+  "id": "8786f10c-03a5-496d-a0d4-39241887aaa3",
+  "short": "8786f10c",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 01:56:28",
+  "duration": 6,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "epic",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "18ee3014-22aa-4c5b-8b3a-dfe8c4ef8316",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_014531_18ee3014-22aa-4c5b-8b3a-dfe8c4ef8316.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>>  as the first frame. The flood wave rolls forward in slow motion over the stone plain, cyan lights and amber bands drifting inside the water, then the whole wave slows and holds perfectly still, a suspended sea. Slow crane up over the crest. Audio: a vast roar thinning to total silence, one low heartbeat.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_015628_8786f10c-03a5-496d-a0d4-39241887aaa3.mp4"
+ },
+ {
+  "id": "7b96b61f-d879-410c-9d49-fbee9d9412a1",
+  "short": "7b96b61f",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:04:20",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "epic",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "12a5aab6-5d21-4a8c-84a0-3582a49c6ebd",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_014547_12a5aab6-5d21-4a8c-84a0-3582a49c6ebd.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>>  as the first frame. A burning streak falls across the starless sky toward the horizon, its light raking the dark swells; mist rolls low over the water. Slow crane up from the waves to the sky. Audio: a rising roar, a distant concussive boom, waves breaking.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020420_7b96b61f-d879-410c-9d49-fbee9d9412a1.mp4"
+ },
+ {
+  "id": "3bb91363-dade-444d-baf3-08cc161b2e97",
+  "short": "3bb91363",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:05:16",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "epic",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "57b5e676-7919-4a50-999c-e8ab5f05bb01",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_014623_57b5e676-7919-4a50-999c-e8ab5f05bb01.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. The sun lifts behind the ring of standing stones and their long shadows sweep across the grass until the tallest stone's shadow touches the centre of the circle. Ash drifts through the light. Slow dolly left along the stones. Audio: wind, a low sustained drone.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020516_3bb91363-dade-444d-baf3-08cc161b2e97.mp4"
+ },
+ {
+  "id": "37c527a2-f2a3-4bf3-b016-7f281efef0aa",
+  "short": "37c527a2",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:05:54",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "epic",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "aef4bc6c-2fe9-429f-8c73-6c68993bbc91",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_014638_aef4bc6c-2fe9-429f-8c73-6c68993bbc91.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. The sun sets behind the ring of standing stones and their long shadows withdraw across the grass until the tallest stone's shadow slides out of the circle's centre. A steam train's smoke trails along the far horizon. Slow dolly right along the stones. Audio: wind, a distant train whistle, the drone fading.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020554_37c527a2-f2a3-4bf3-b016-7f281efef0aa.mp4"
+ },
+ {
+  "id": "5ffe62eb-ff78-4c05-a20c-462b69306699",
+  "short": "5ffe62eb",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:07:30",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "epic",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "810c295d-c8ca-467d-b3d7-e71ad06ecf6c",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_014859_810c295d-c8ca-467d-b3d7-e71ad06ecf6c.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. A burning streak falls across the night sky toward the horizon beyond the lit coastline, its light raking the dark swells; mist rolls low over the water. Slow crane down from the sky to the waves. Audio: a rising roar, far-off sirens, waves breaking.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020730_5ffe62eb-ff78-4c05-a20c-462b69306699.mp4"
+ },
+ {
+  "id": "0c4e4283-fcaa-4a3a-b778-2a3eae74fe9b",
+  "short": "0c4e4283",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:17:12",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "epic",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "9e3700a2-4634-43f7-a4d5-cfb905d21dd2",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020030_9e3700a2-4634-43f7-a4d5-cfb905d21dd2.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. Rain begins to fall on the stone plain as <<<b5961961-3eeb-4ebe-b5c6-ef69cf2850bd>>> and <<<de386d65-9ce8-4aa1-8952-94a8de54f818>>> watch the pale wall of water rise along the whole horizon; his hand closes on her shoulder. Slow push-in from behind them. Audio: first heavy drops on stone, a deep rumble growing.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_021712_0c4e4283-fcaa-4a3a-b778-2a3eae74fe9b.mp4"
+ },
+ {
+  "id": "35e96632-bc5e-43b0-a34f-98d0c56ec8d5",
+  "short": "35e96632",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:18:09",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "epic",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "afd8bb6f-562a-43f4-998b-00a61be9839e",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020132_afd8bb6f-562a-43f4-998b-00a61be9839e.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. The last rain thins over the stone plain; the water draws back to a silver line on the horizon and a band of pale gold light opens beneath the clouds. <<<b5961961-3eeb-4ebe-b5c6-ef69cf2850bd>>> lifts her face to the light beside <<<de386d65-9ce8-4aa1-8952-94a8de54f818>>>. Slow pull-back away from them. Audio: dripping water, a single bird call, wind easing.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_021809_35e96632-bc5e-43b0-a34f-98d0c56ec8d5.mp4"
+ },
+ {
+  "id": "49c8832b-879c-4945-a9d3-4cd51a415a33",
+  "short": "49c8832b",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:18:48",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Inside the Great Pyramid of Giza, the top of the Grand Gallery: the steep corbelled limestone corridor rises and ends at the Great Step, one massive smooth stone block standing waist-high, its vertical face the exact centre line of the whole monument. Beyond it a low square doorway leads into darkness toward the King's Chamber. A single warm oil-lamp glow rests on the step; dust hangs perfectly still in the air; the stone is plain and unmarked. Camera: one slow, level push-in up the gallery toward the face of the step, easing to a stop as the step fills the frame. Feeling: the still point at the axis of the world, silent and immense. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_021848_49c8832b-879c-4945-a9d3-4cd51a415a33.mp4"
+ },
+ {
+  "id": "1cc817ae-beaf-448b-9b2a-48c655eaf138",
+  "short": "1cc817ae",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:19:38",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "drama",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "368f635e-ab54-448f-bab7-8093058d35e2",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_015900_368f635e-ab54-448f-bab7-8093058d35e2.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. <<<b5961961-3eeb-4ebe-b5c6-ef69cf2850bd>>> sweeps her hand across the floating field of luminous dots; each dot she touches sends a thread of amber light to its twin on the far side, the threads stacking into a symmetric fan. Her eyes track each thread. Static close-up. Audio: a soft glass chime for every thread.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_021938_1cc817ae-beaf-448b-9b2a-48c655eaf138.mp4"
+ },
+ {
+  "id": "93aebf4e-6576-45c5-9a4a-89aed7bd8ecf",
+  "short": "93aebf4e",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:20:18",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "drama",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "cfd4749b-5e48-4934-8953-25d64906634a",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_015922_cfd4749b-5e48-4934-8953-25d64906634a.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. A comet's glow slides across the darkened sun and its light moves over <<<b5961961-3eeb-4ebe-b5c6-ef69cf2850bd>>>'s face; she counts silently on her fingers, lips moving, and the gold glyphs at her throat pulse four times. Static close-up. Audio: a low sustained tone, four soft chimes.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022018_93aebf4e-6576-45c5-9a4a-89aed7bd8ecf.mp4"
+ },
+ {
+  "id": "d11132fe-2e81-4b3d-b736-ebe7450f01f2",
+  "short": "d11132fe",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:24:37",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "drama",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "b499dba3-754d-472a-a22b-3e8a5f81a8a5",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020906_b499dba3-754d-472a-a22b-3e8a5f81a8a5.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. The two cloaked figures walk hand in hand away from the glowing gate onto the ash plain; behind them the gate's light narrows to a thin bright line and closes. Ash settles into their footprints. Slow pull-back from behind them. Audio: wind, one low bell note as the light closes.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022437_d11132fe-2e81-4b3d-b736-ebe7450f01f2.mp4"
+ },
+ {
+  "id": "837075f1-2cf3-4e51-a86f-2f60b9d2aeb0",
+  "short": "837075f1",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:25:22",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "drama",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "0fb7a1f8-f905-45be-ae9e-844c38877e4f",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020847_0fb7a1f8-f905-45be-ae9e-844c38877e4f.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. The sun goes dark over the dusty plain; bronze-armoured soldiers of both armies lower their spears one by one and stand still, looking up at the pale ring of light. Slow push-in between the ranks. Audio: clattering armour going quiet, wind, one low bell note.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022522_837075f1-2cf3-4e51-a86f-2f60b9d2aeb0.mp4"
+ },
+ {
+  "id": "f6474698-d1da-4853-8398-cb51989c6ed7",
+  "short": "f6474698",
+  "model": "cinematic_studio_video_3_5",
+  "created": "2026-09-29 02:26:36",
+  "duration": 7,
+  "ar": "21:9",
+  "res": "720p",
+  "audio": true,
+  "genre": "drama",
+  "multi": false,
+  "medias": [
+   {
+    "role": "image",
+    "data": {
+     "id": "fd0ed83e-0467-45c3-821d-bff858a33c56",
+     "type": "image_job",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_020002_fd0ed83e-0467-45c3-821d-bff858a33c56.png"
+    }
+   }
+  ],
+  "prompt": "<<<image_1>>> as the first frame. <<<b5961961-3eeb-4ebe-b5c6-ef69cf2850bd>>> and <<<de386d65-9ce8-4aa1-8952-94a8de54f818>>> walk side by side along the line of light across the dark ground; ahead of them arcs of cyan light rise from the line and land far on the other side, one after another. Tracking alongside them, left to right. Audio: footsteps, a soft chord swelling with each arc.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022636_f6474698-d1da-4853-8398-cb51989c6ed7.mp4"
+ },
+ {
+  "id": "62cb2b1f-f429-4643-93cc-0835d3a9a922",
+  "short": "62cb2b1f",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Inside the Great Pyramid, the Grand Gallery seen from its foot: a towering corridor climbing steeply upward, walls stepping inward in seven corbelled courses toward a narrow ceiling, raised stone ledges on both sides lined with evenly spaced slots like the track of a vast machine. Warm lamplight fading up into dark. Camera: one slow tilt up and gentle push forward up the slope. Feeling: engineered, mechanical, sacred. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_62cb2b1f-f429-4643-93cc-0835d3a9a922.mp4"
+ },
+ {
+  "id": "df1e454e-9a54-497f-bce5-42026026adf2",
+  "short": "df1e454e",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Far out on flat desert at midday, the Great Pyramid of Giza stands on the horizon sheathed in smooth white casing, its base dissolved into rippling heat shimmer so the whole monument seems to hang above the sand, a building being lowered from the sky. Pale sky, low dunes in the foreground. Camera: one slow, steady walk-forward along the sand toward it; the shimmer thins and the base begins to settle toward the ground. Feeling: arrival, awe at impossible scale. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_df1e454e-9a54-497f-bce5-42026026adf2.mp4"
+ },
+ {
+  "id": "d08c1b70-a591-4530-8638-537b44320340",
+  "short": "d08c1b70",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Deep beneath the Great Pyramid: a rough unfinished chamber cut into raw bedrock, uneven floor, a dark square pit sunk in the ground, the ceiling flat and precise above the chaos below. One warm lamp on the floor throws long shadows. Camera: one slow circling move around the pit. Feeling: the foundation, primal and unfinished. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_d08c1b70-a591-4530-8638-537b44320340.mp4"
+ },
+ {
+  "id": "a730fdcf-82f4-47f7-bd27-6a667922dae5",
+  "short": "a730fdcf",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Dawn at Giza: one face of the Great Pyramid clad entirely in polished white limestone casing stones, joints so fine the face reads as a single mirror plane, the first sun catching it in a sheet of warm gold. Camera: one slow tilt-and-rise up the 51-degree face from the base toward the apex. Feeling: pristine, blinding, perfect. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_a730fdcf-82f4-47f7-bd27-6a667922dae5.mp4"
+ },
+ {
+  "id": "b325083c-5b79-4dae-bb37-030ed96e3d10",
+  "short": "b325083c",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Low at the foot of the Great Pyramid: huge polished white casing blocks half-emerged from a slope of sand and broken rubble, cracked by centuries of weight, seashells and small fossils scattered in the sand around them. A lantern and an abandoned shovel rest nearby. Camera: one slow lateral dolly along the exposed blocks. Feeling: discovery, something the world forgot it owned. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_b325083c-5b79-4dae-bb37-030ed96e3d10.mp4"
+ },
+ {
+  "id": "a4fd6abe-8178-4bb6-9a4d-a8ed67011793",
+  "short": "a4fd6abe",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "The north face of the Great Pyramid in late light: a pair of colossal limestone blocks leaning together in a chevron gable high on the face, the concealed original entrance, courses of stepped masonry around it. Camera: one slow push-in and gentle rise toward the chevron. Feeling: a secret hiding in plain sight. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_a4fd6abe-8178-4bb6-9a4d-a8ed67011793.mp4"
+ },
+ {
+  "id": "7797b7de-e350-45b5-8871-e503752411e1",
+  "short": "7797b7de",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "The small antechamber before the King's Chamber: a thick slab of granite hangs in vertical grooves in the walls, and on its face a single small raised boss of stone stands out, deliberate and precise. Lamplight rakes across it. Camera: one slow push-in toward the boss until it sits dead centre. Feeling: a measurement left on purpose. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_7797b7de-e350-45b5-8871-e503752411e1.mp4"
+ },
+ {
+  "id": "e0f9e03b-1b15-4842-b3c3-9169221298ad",
+  "short": "e0f9e03b",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Above the King's Chamber: a cramped low space between enormous rough granite beams stacked one above another, dust layered on their faces, the weight of the pyramid pressing from above. A single lamp. Camera: one slow lateral crawl along the length of a beam. Feeling: unbearable weight held in balance. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_e0f9e03b-1b15-4842-b3c3-9169221298ad.mp4"
+ },
+ {
+  "id": "4f458374-5596-4161-a297-1a9eddb19ae5",
+  "short": "4f458374",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Inside the Great Pyramid, the Grand Gallery seen from the top edge of the Great Step looking down: the corridor plunges steeply away, corbelled walls converging toward a small warm glow far below, the slotted ledges running down both sides. Camera: one slow tilt down and gentle drift forward over the edge. Feeling: the same machine, seen returning. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_4f458374-5596-4161-a297-1a9eddb19ae5.mp4"
+ },
+ {
+  "id": "92006f26-b698-43d8-9008-0e9137dabba0",
+  "short": "92006f26",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Inside the King's Chamber of the Great Pyramid, looking up a narrow square shaft that rises at an angle through solid masonry; at its far end a small square of deep night sky holds one bright steady star. Camera: one slow push up the shaft toward the star. Feeling: a line drawn from stone to heaven. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_92006f26-b698-43d8-9008-0e9137dabba0.mp4"
+ },
+ {
+  "id": "23b1aecf-5d00-4618-b5e0-e101d20839ad",
+  "short": "23b1aecf",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "Inside the Great Pyramid: a long, narrow, perfectly straight square passage descending at a steep angle into the bedrock, walls smooth and plain, the far end lost in blackness. A single warm lamp glow at the near end. Camera: one slow glide down the passage, the darkness receding ahead. Feeling: descent into the underworld. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_23b1aecf-5d00-4618-b5e0-e101d20839ad.mp4"
+ },
+ {
+  "id": "fe0cee37-9e37-47ef-ab91-5d033f2c4a44",
+  "short": "fe0cee37",
+  "model": "cinematic_studio_3_0",
+  "created": "2026-09-29 02:27:17",
+  "duration": 10,
+  "ar": "16:9",
+  "res": "720p",
+  "audio": false,
+  "genre": "drama",
+  "multi": false,
+  "medias": [],
+  "prompt": "The King's Chamber inside the Great Pyramid: a flat-ceilinged room of dark polished red granite, walls of huge fitted blocks, a lidless granite coffer at the far end. Dust motes drift in warm lamplight. Camera: one slow push-in across the floor toward the coffer. Feeling: a resonant room holding its breath. LOOK: 35mm naturalistic film print emulation, DaVinci industrial-grade color grade, warm low-key chiaroscuro, amber highlights, deep mahogany shadow, fine organic grain, soft halation. One continuous shot, empty of people.",
+  "urls": [],
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/<higgsfield-user>/hf_20260929_022717_fe0cee37-9e37-47ef-ab91-5d033f2c4a44.mp4"
+ }
+]
