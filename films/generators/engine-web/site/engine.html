@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Ere We Were Engine · Bradley Rogue</title>
+  <meta name="description" content="The engine behind the Ere We Were films, running live in your browser: real Cinema Studio clips, with every counter, title, fact, caption and check line drawn in code and timed to the voices.">
+  <meta property="og:title" content="The Ere We Were Engine · Bradley Rogue">
+  <meta property="og:description" content="A film engine running live in your browser.">
+  <meta property="og:image" content="/media/engine/poster.jpg">
+  <meta name="theme-color" content="#0b0907">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css?v=2">
+  <link rel="stylesheet" href="/css/engine.css?v=1">
+</head>
+<body>
+  <a class="skip" href="#engine">Skip to the engine</a>
+
+  <header class="top">
+    <a class="brand" href="/">Bradley Rogue</a>
+    <nav aria-label="Main">
+      <a href="/#films">Films</a>
+      <a href="/#services">Services</a>
+      <a href="/#books">Books</a>
+      <a href="/#apps">Apps</a>
+      <a href="/#about">About</a>
+      <a class="nav-cta" href="/#contact">Work with me</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section id="engine" class="section eng-section" aria-labelledby="engine-title">
+      <p class="eyebrow">Built in the browser</p>
+      <h1 id="engine-title" class="eng-h1">The Ere We Were engine</h1>
+      <p class="section-lede">This is the engine that makes the <em>Ere We Were</em> films, running live on this page. The pictures are real Cinema Studio shots. Everything laid over them is drawn by code while you watch: the rolling year, the title, the quick fact, the captions, the check line and the station rail, all timed to Natori's and Rogue's voices. Press play, or pick a station.</p>
+
+      <div id="engine-root" class="eng-mount" aria-live="polite">
+        <p class="eng-loading">Loading the engine…</p>
+      </div>
+      <noscript><p class="eng-loading">The engine needs JavaScript to run.</p></noscript>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="how-title">
+      <p class="eyebrow">How it works</p>
+      <h2 id="how-title">One sheet, one station, one clock</h2>
+      <div class="eng-how">
+        <article>
+          <h3>The sheet</h3>
+          <p>Each station starts as six lines: a title, a claim, a fact, a line for Natori, a line for Rogue, and a check that prints where the source and the record disagree. The words are checked before a single frame is made.</p>
+        </article>
+        <article>
+          <h3>The clock</h3>
+          <p>Every station runs fifteen seconds. The year rolls in by 1.9, Natori speaks from 2.4, the quick fact rises in the gap, Rogue answers, and the check lands before the station hands on.</p>
+        </article>
+        <article>
+          <h3>The mirror</h3>
+          <p>Station <i>k</i> mirrors station 13 − <i>k</i>, each shot plays forward and then back, and the last station returns to the first frame. The film reads the same returning: 19138 · 83191.</p>
+        </article>
+        <article>
+          <h3>The render</h3>
+          <p>The same code that plays here renders the finished 1080p films frame by frame, so what you scrub on this page is exactly what ends up in the film.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>© <span id="year"></span> Bradley Rogue · Hollywood Rogue AI Ventures LLC</p>
+    <p class="fine">Films made with AI-generated visuals and voices. The Phoenix Chronicles is a work of fiction. Engine built with <a href="https://www.remotion.dev" rel="noopener">Remotion</a>.</p>
+  </footer>
+
+  <script>window.ENGINE_BASE = "/media/engine/"; document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="/js/engine.js?v=1" defer></script>
+</body>
+</html>

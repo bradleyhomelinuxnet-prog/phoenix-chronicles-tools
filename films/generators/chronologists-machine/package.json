@@ -1,0 +1,28 @@
+{
+  "name": "ere-we-were-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ERE WE WERE — Reel IV walker render (3 lanes x 19 stations x 15 s). Drop Higgsfield clips in public/clips/<ID>.mp4 and voice/score files in public/audio/ and they are picked up automatically.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render EreWeWere out/Ere-We-Were_Full_v1.mp4",
+    "render:evidence": "remotion render Lane-EVIDENCE out/Ere-We-Were_Evidence_v1.mp4",
+    "render:chronicon": "remotion render Lane-CHRONICON out/Ere-We-Were_Chronicon_v1.mp4",
+    "render:cipher": "remotion render Lane-CIPHER out/Ere-We-Were_Cipher_v1.mp4",
+    "render:trailer": "remotion render Trailer138 out/Ere-We-Were_Trailer-138_v1.mp4",
+    "render:station": "remotion render Station out/station.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "^4.0.529",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.6.3"
+  }
+}
