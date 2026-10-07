@@ -1,5 +1,7 @@
 # Phoenix Chronicles Tools
 
+[![Live site](https://img.shields.io/badge/live-site-d8a943)](https://bradleyhomelinuxnet-prog.github.io/phoenix-chronicles-tools/) [![license: MIT](https://img.shields.io/badge/license-MIT-3d6fb4)](https://github.com/bradleyhomelinuxnet-prog/phoenix-chronicles-tools/blob/main/LICENSE) ![Runs in the browser](https://img.shields.io/badge/runs-in%20the%20browser-54b8c9)
+
 > Companion toolkit for **The Phoenix CODEX 138 Palindromic** — a predictive-chronology instrument suite built around the Archaix thesis of Jason Breshears (Phoenix 138 · Nemesis 792 · NER 600 · Metonic 19), plus a reverse-engineering study of the Ophis v9 cycle engine that inspired the grammar.
 
 ## What's in here
