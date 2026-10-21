@@ -43,7 +43,9 @@ The instrument trio also lives at **[hollywood-rogue-ai-ventures.w3spaces.com](h
 
 **Deploy your own:** the three HTML files are static and stateless. Drop them into any static-site host (GitHub Pages, Netlify, Cloudflare Pages, plain nginx). Keep them in the same directory so the relative `↗` nav links resolve.
 
-**Extend:** paste your own Ophis-grammar formulas into PSYFR1's Custom Operation field. Legal grammar is documented in [OPHIS.html §5](OPHIS.html#grammar) and [PSYFR2.html §4](PSYFR2.html#grammar). Save your setups as `.oph` (the same JSON schema the original Ophis app uses).
+**Extend:** paste your own Ophis-grammar formulas into PSYFR1's Custom Operation field. Legal grammar is documented in [OPHIS.html §5](OPHIS.html#grammar) and [PSYFR2.html §4](PSYFR2.html#grammar).
+
+**Save and reopen a setup:** in PSYFR1, **⤓ Save .json** downloads your anchors, operations, date system and convergence window as a `.json` file, and **⤒ Load** opens one again. This is PSYFR's own file, not an Ophis `.oph` file. The Ophis apps can't open it, and PSYFR1 can't open an `.oph`. To move a setup between them, copy the operation formulas across by hand. Ophis's `x` for multiply works in PSYFR1, but `OPH_HEP` (the hepta-cycle) does not, so operations that use it won't paste in.
 
 ## The Ophis reverse-engineering note
 
