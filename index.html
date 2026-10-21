@@ -1,56 +1,162 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<base target="_blank">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Phoenix Chronicles Tools</title>
-<meta name="description" content="Predictive-chronology instruments (PSYFR engine and field guides) and a reverse-engineering study of the Ophis v9 cycle engine.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root { --bg:#07070c; --bg2:#0d0d18; --ink:#ece5d2; --dim:#9c947c; --gold:#d8a943; --gold2:#f3d27a; --line:#2a2618; }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.6 "EB Garamond", Georgia, serif; }
-  main { max-width:880px; margin:0 auto; padding:56px 16px 72px; }
-  h1 { font:800 clamp(28px,6vw,46px)/1.1 Cinzel, serif; letter-spacing:.06em; color:var(--gold2); margin:0 0 8px; }
-  .sub { color:var(--dim); font-style:italic; margin:0 0 40px; }
-  h2 { font:600 15px/1 Cinzel, serif; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); margin:44px 0 14px; border-bottom:1px solid var(--line); padding-bottom:10px; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; }
-  a.card { display:block; background:var(--bg2); border:1px solid var(--line); border-radius:6px; padding:18px; color:inherit; text-decoration:none; transition:border-color .15s; }
-  a.card:hover, a.card:focus-visible { border-color:var(--gold); outline:none; }
-  .card b { display:block; font:600 17px/1.3 Cinzel, serif; color:var(--gold2); margin-bottom:6px; }
-  .card span { color:var(--dim); font-size:16px; }
-  ul { padding-left:20px; margin:0; } li { margin:6px 0; }
-  a { color:var(--gold2); }
-  code, .mono { font-family:"IBM Plex Mono", monospace; font-size:14px; }
-  footer { margin-top:56px; color:var(--dim); font-size:15px; }
-</style>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chronotecture — The Prophecy Engine</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><style>@media(min-width:1180px){.featgrid{grid-template-columns:repeat(4,1fr)}}@media(min-width:821px) and (max-width:1179px){.featgrid{grid-template-columns:repeat(2,1fr)}}</style>
 </head>
 <body>
-<main>
-  <h1>Phoenix Chronicles Tools</h1>
-  <p class="sub">Companion toolkit for <em>The Phoenix CODEX 138 Palindromic</em>: predictive-chronology instruments and a study of the Ophis v9 cycle engine.</p>
+<canvas id="stars"></canvas>
+<div class="scan"></div>
+<div class="wrap">
 
-  <h2>Live instruments</h2>
-  <div class="grid">
-    <a class="card" href="PSYFR1.html"><b>The Predictive Chronology Engine</b><span>Anchor dates in, cycle-projected Z-dates out, scored against the Chronicon ledger and eclipse tables.</span></a>
-    <a class="card" href="PSYFR2.html"><b>The Field Guide</b><span>Quick start, vocabulary, formula cookbook, worked examples and FAQ for the engine.</span></a>
-    <a class="card" href="OPHIS.html"><b>Ophis v9 Field Guide</b><span>Architecture, the 15 shipped operations, the 138 / 19 lattice extensions, and a live compute playground.</span></a>
+  <header class="hero">
+    <div class="eyebrow">Jason M. Breshears &middot; 2017 &middot; Interactive Atlas</div>
+    <h1 class="serif">Chronotecture</h1>
+    <div class="sub serif">The Lost Science of Prophetic Engineering</div>
+    <p class="lede">A cinematic, navigable edition of the complete work &mdash; all <b>119 plates</b>, presented faithfully with nothing altered. The Great Pyramid read as a <b>machine for time</b>: cycles of <span class="k">138</span>, <span class="k">552</span>, and <span class="k">1656</span> years radiating from fixed cataclysms to prophesied dates. Enter through any plate, or start with a fully rebuilt <b>&#10022; interactive</b>.</p>
+    <div class="rail">
+      <div class="stat hud"><div class="n" data-to="119">0</div><div class="l">Plates</div></div>
+      <div class="stat gold hud"><div class="n" data-to="65">0</div><div class="l">Chart plates</div></div>
+      <div class="stat hud"><div class="n" data-to="67">0</div><div class="l">Interactive &#10022;</div></div>
+      <div class="stat gold hud"><div class="n" data-to="138">0</div><div class="l">Cycle base</div></div>
+    </div>
+  </header>
+
+  <section class="intro">
+    <h2 class="serif">How to read the engine</h2>
+    <p>Breshears' thesis is simple and strange: the Great Pyramid encodes a <b>calendar of catastrophe and prophecy</b>. Fixed events &mdash; a comet in <span class="k">1135 BC</span>, the Great Flood at <span class="k">2239 BC</span> &mdash; act as anchors, and precise spans of years measured from them land on later landmarks: quakes, wars, the birth of the A.D. system, and events still ahead.</p>
+    <p>The numbers recur. A base cycle of <span class="k">552</span> years doubles to <span class="k">1104</span>; the whole grid rests on <span class="k">138</span> ( 552 = 138&times;4, 1104 = 138&times;8 ). Chart <b>II&middot;b</b> mirrors <span class="k">1656</span> years on either side of the Flood &mdash; a chronological palindrome. The <b>&#10022; interactives</b> below rebuild these as living diagrams &mdash; and the Constellation cross-map shows how they all connect; the other plates are the original hand-drawn charts, zoomable and pristine.</p>
+  </section>
+
+  <div class="shead"><h3>Featured Interactives</h3><div class="rule"></div></div>
+  <div class="featgrid">
+    <a class="feat hud" href="redesign/iic.html"><div class="tag">&#10022; Chart II&middot;c</div><h4 class="serif">The Recursive Pyramid Timeline</h4><p>Eight span-bars, one origin &mdash; the comet of 1135 BC &mdash; each reaching a prophesied date. Anchored on the base-138 cycle.</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/iib.html"><div class="tag">&#10022; Chart II&middot;b</div><h4 class="serif">The Palindrome of the Great Flood</h4><p>1656 years each side of the Flood; symmetric cycles landing on mirrored events across seven millennia.</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/vic.html"><div class="tag">&#10022; Chart VI&middot;c</div><h4 class="serif">The Hijrah Palindrome</h4><p>The Islamic calendar mirrored on 622 AD &mdash; equal spans reaching a BC event and its AD twin.</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/vid.html"><div class="tag">&#10022; Chart VI&middot;d</div><h4 class="serif">The Hijrah Doublings</h4><p>Six spans from 622 AD &mdash; 622, 632, 692, 711, 726, 734 years &mdash; each run twice, reaching 1866 to 2090 AD.</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/chart-i.html"><div class="tag">&#10022; Chart I</div><h4 class="serif">The Pyramid-Inch Calendar</h4><p>The Great Pyramid's passages read as years &mdash; 3361 and 3036 inches setting the 1902 AD countdown.</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/ie.html"><div class="tag">&#10022; Chart I&middot;e</div><h4 class="serif">The Giza Course Countdown</h4><p>204 levels of bricks as years, 1902 to 2106 AD &mdash; 2448 months, the Anno Mundi year of the Exodus.</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/great-step.html"><div class="tag">&#10022; The Great Step</div><h4 class="serif">The Countdown Calendar</h4><p>126 inches of limestone &mdash; 1902 to 2028 AD, then the red granite era to 2052.</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="pages/p119.html#redesign"><div class="tag">&#10022; Plate 119</div><h4 class="serif">The Recursive Palindrome</h4><p>A bespoke closing mirror &mdash; 138's doubling spine and the 19-year Metonic cycle. 138 &minus; 19 = 119.</p><div class="go">ENTER &rarr;</div></a>
+    <!--auto-feat--><a class="feat hud" href="redesign/p014.html"><div class="tag">&#10022; Chart I·b &middot; Plate 14</div><h4 class="serif">The Passage Conjunct Axis</h4><p>The Passage Conjunct Axis — span-bars from 1460 BC</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p015.html"><div class="tag">&#10022; Chart I·c &middot; Plate 15</div><h4 class="serif">The 414-Year Stonehenge Calendar</h4><p>The Stonehenge Chronolithic Calendar — fifteen periods of 414 years</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p016.html"><div class="tag">&#10022; Chart I·d &middot; Plate 16</div><h4 class="serif">The Great Step Axis Year</h4><p>The Great Step Axis Year — the AD era measured into 1902</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p018.html"><div class="tag">&#10022; Chart II &middot; Plate 18</div><h4 class="serif">The 325-Inch Variance</h4><p>The 325-Inch Variance — from the 1460 BC axis to the Deluge axis</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p021.html"><div class="tag">&#10022; Chart III &middot; Plate 21</div><h4 class="serif">The Axis Conjunct</h4><p>The 1135 BC axis conjunct and the 1688 parallel, in pyramid inches</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p022.html"><div class="tag">&#10022; Chart III·b &middot; Plate 22</div><h4 class="serif">The 552-Year Chain of Darkened Suns</h4><p>The 552-Year Chain — comets, Nibiru and the 1688 BC darkening</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p023.html"><div class="tag">&#10022; Chart IV &middot; Plate 23</div><h4 class="serif">The Completed Triangle</h4><p>The Completed Triangle — where the Giza Countdown ends and begins</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p024.html"><div class="tag">&#10022; Chart V &middot; Plate 24</div><h4 class="serif">The 3014 P″ Horizontal Axis</h4><p>The Entrance, the 3014 P″ Axis and the 2090 AD Well-Pit Differential</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p025.html"><div class="tag">&#10022; Chart V &middot; Plate 25</div><h4 class="serif">The 2905 BC Construction Anchor</h4><p>From the Start of Construction, 2905 BC [990 AM], to 6000 AM</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p026.html"><div class="tag">&#10022; Chart V &middot; Plate 26</div><h4 class="serif">The Final 520 Years</h4><p>The Final 520 Years — Mirrored Arcs on 1886 AD [5780 AM]</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p027.html"><div class="tag">&#10022; Chart VI &middot; Plate 27</div><h4 class="serif">The 176 P″ Floor-Line Axis</h4><p>The Flood Axis ± 176 P″ — Hijrah 622 AD and the Floor Joint 974 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p028.html"><div class="tag">&#10022; Chart VI &middot; Plate 28</div><h4 class="serif">The 1480 AM Mirror</h4><p>The 1480 AM [2415 BC] Axis — Mirrored Spans from 5239 BC to 6000 AM</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p038.html"><div class="tag">&#10022; Chart VIII &middot; Plate 38</div><h4 class="serif">The Mayan Long-Count Entrance</h4><p>The Entrance at 2590 BC, the Mayan Long-Count and the 2070 AD Well-Pit Axis</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p039.html"><div class="tag">&#10022; Chart VIII·b &middot; Plate 39</div><h4 class="serif">Mirror of 1480 BC</h4><p>Spans mirrored about 1480 BC, from the Preadamic World to the Chief Cornerstone</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p040.html"><div class="tag">&#10022; Chart IX &middot; Plate 40</div><h4 class="serif">The 2045 AD Lower Chamber Calendar</h4><p>2045 AD, Chief Calendrical Theme of the Great Pyramid: the Lower Chamber Level</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p041.html"><div class="tag">&#10022; Chart IX·b / IX·c &middot; Plate 41</div><h4 class="serif">Countdowns to 2001 and 2045 AD</h4><p>Fall of the Towers and the Terminal Epoch: span-bars landing on 2001 and 2045 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p042.html"><div class="tag">&#10022; Chart X, XI, XII &middot; Plate 42</div><h4 class="serif">Mayan Long-Count in the Passages</h4><p>The Mayan Long-Count, the 1054 AD Supernova and the 1356 AD Casing Blocks in the Passages</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p043.html"><div class="tag">&#10022; Chart X·b &middot; Plate 43</div><h4 class="serif">Convergence on 1054 AD</h4><p>Spans converging on the 1054 AD supernova in Taurus</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p044.html"><div class="tag">&#10022; Chart X·c &middot; Plate 44</div><h4 class="serif">The Iron Empires Mirror</h4><p>Iron Empires: Rome and the United States mirrored across 1054 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p045.html"><div class="tag">&#10022; Chart XI·b &middot; Plate 45</div><h4 class="serif">The 52-Year Lattice</h4><p>The 52-year lattice around the 1356 AD casing-stone earthquake</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p046.html"><div class="tag">&#10022; Chart XIII–XVI &middot; Plate 46</div><h4 class="serif">The Conjunct Axis at 820 AD</h4><p>Seth, Al Mamoun and 6000 AM: four readings of the passage conjunct</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p047.html"><div class="tag">&#10022; Chart XIV·b &middot; Plate 47</div><h4 class="serif">The 820 AD Discovery</h4><p>From the 820 AD opening of the hidden upper passages</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p048.html"><div class="tag">&#10022; Chart XIV·c &middot; Plate 48</div><h4 class="serif">Mirror Spans around 1930 AD — Pluto and Ras Shamra to 6000 AM</h4><p>Mirror Spans around 1930 AD — Pluto and Ras Shamra to 6000 AM</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p053.html"><div class="tag">&#10022; Chart XVII &middot; Plate 53</div><h4 class="serif">1776 at the Axis Conjunct</h4><p>1776 at the Axis Conjunct: 186 short of 6000 and the Anunnaki Ner</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p054.html"><div class="tag">&#10022; Chart XVII &middot; Plate 54</div><h4 class="serif">The 1776 Mirror</h4><p>The 1776 Mirror — spans converging on the birth of the United States</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p055.html"><div class="tag">&#10022; Chart XVII &middot; Plate 55</div><h4 class="serif">Planet of the Crossing</h4><p>Planet of the Crossing — the pyramid height of 1920 and the 186-year light</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p059.html"><div class="tag">&#10022; Chart XVIII &middot; Plate 59</div><h4 class="serif">Passages as Calendars</h4><p>Passages as calendars — Year One to the Great Step, and the foundation of 2815 BC</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p060.html"><div class="tag">&#10022; Chart XIX &middot; Plate 60</div><h4 class="serif">From the Pyramid’s Completion</h4><p>From the Pyramid’s completion — span-bars out of 2815 BC [1080 AM]</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p061.html"><div class="tag">&#10022; Chart XIX·c &middot; Plate 61</div><h4 class="serif">Anunnaki Chronology — from King David’s Birth (1039 BC) to 1962 AD</h4><p>Anunnaki Chronology — from King David’s Birth (1039 BC) to 1962 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p062.html"><div class="tag">&#10022; Chart XIX·d &middot; Plate 62</div><h4 class="serif">Mirror Countdowns around 1998 AD — 108 Years to 6000 AM</h4><p>Mirror Countdowns around 1998 AD — 108 Years to 6000 AM</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p063.html"><div class="tag">&#10022; Chart XX / XXI &middot; Plate 63</div><h4 class="serif">Annus Mundi in the Passages</h4><p>The 583 BC Junction &amp; the Annus Mundi Passage Count</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p064.html"><div class="tag">&#10022; Chart XX·b &middot; Plate 64</div><h4 class="serif">Mirror Spans of 583 BC</h4><p>Mirror Spans of the 583 BC Sun-Darkening</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p069.html"><div class="tag">&#10022; Chart XXII &middot; Plate 69</div><h4 class="serif">The Lower Chamber Level</h4><p>The Lower Chamber Level — 1414 P″ of Anunnaki Chronology</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p070.html"><div class="tag">&#10022; Chart XXI·b &middot; Plate 70</div><h4 class="serif">13 Countdowns to 2046 AD</h4><p>13 Countdowns to End of United States — converging on 2046 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p071.html"><div class="tag">&#10022; Chart XXII·c &middot; Plate 71</div><h4 class="serif">Countdowns to 2052 AD</h4><p>Countdowns to 2052 AD — the Eighth King’s Reign</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p073.html"><div class="tag">&#10022; Chart XXIII &middot; Plate 73</div><h4 class="serif">The Rejected Cornerstone</h4><p>The Rejected Cornerstone — 5448, 5814 and the 6000 AM Countdown</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p074.html"><div class="tag">&#10022; Chart XXIII·b &middot; Plate 74</div><h4 class="serif">Spans from 1554 AD</h4><p>Spans from 1554 AD — the 5448 P″ Pyramid Height as a Year</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p080.html"><div class="tag">&#10022; Chart XXIV &middot; Plate 80</div><h4 class="serif">The 204-Year Giza Countdown — Great Step to the Well-Pit Vertical</h4><p>The 204-Year Giza Countdown — Great Step to the Well-Pit Vertical</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p081.html"><div class="tag">&#10022; Chart XXV &middot; Plate 81</div><h4 class="serif">The Measured Section — Great Step to the South Wall of the Upper Chamber</h4><p>The Measured Section — Great Step to the South Wall of the Upper Chamber</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p082.html"><div class="tag">&#10022; Chart XXVI &middot; Plate 82</div><h4 class="serif">Seven Iron Empire Countdowns — 1836 P″ to 1940–1962 AD</h4><p>Seven Iron Empire Countdowns — 1836 P″ to 1940–1962 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p083.html"><div class="tag">&#10022; Chart XXVII &middot; Plate 83</div><h4 class="serif">The Great Step Chronometer — 1902 to 2028 in Thirds of 126</h4><p>The Great Step Chronometer — 1902 to 2028 in Thirds of 126</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p084.html"><div class="tag">&#10022; Chart XXVIII &middot; Plate 84</div><h4 class="serif">The 52 P″ Ceiling Block — Four 13-Year Periods from 1962</h4><p>The 52 P″ Ceiling Block — Four 13-Year Periods from 1962</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p085.html"><div class="tag">&#10022; Chart XXIX &middot; Plate 85</div><h4 class="serif">2016 AD — Double-Referenced in Great Step Chronometry</h4><p>2016 AD — Double-Referenced in Great Step Chronometry</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p086.html"><div class="tag">&#10022; Chart XXX &middot; Plate 86</div><h4 class="serif">Granite Leaf [Seven Comets]</h4><p>The Granite Leaf — Seven Comets, 2034–2050 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p087.html"><div class="tag">&#10022; Chart XXXI &middot; Plate 87</div><h4 class="serif">Granite Leaf [Seven Seals &amp; Trumpets]</h4><p>Granite Leaf — the Seven Seals &amp; Seven Trumpets</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p088.html"><div class="tag">&#10022; Chart XXXII &middot; Plate 88</div><h4 class="serif">2052 AD Anunnaki Released</h4><p>2052 AD — One Third of the Anunnaki Released</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p089.html"><div class="tag">&#10022; Chart XXXIII &middot; Plate 89</div><h4 class="serif">Wellpit Axis 2106 / 6000 AM</h4><p>Wellpit Axis 2106 · 6000 AM — Stone Kingdom years to the Upper Chamber</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p090.html"><div class="tag">&#10022; Chart XXXIV &middot; Plate 90</div><h4 class="serif">Conclusion of Geometric Chronometry</h4><p>Conclusion of the geometric chronometry — the A/B ruler, 1902–2106 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p091.html"><div class="tag">&#10022; Chart XXXV &middot; Plate 91</div><h4 class="serif">The Last Days &amp; the Stone Kingdom</h4><p>The Last Days, the Stone Kingdom &amp; the Giza Course Countdown</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p110.html"><div class="tag">&#10022; Foundation of Time &middot; Plate 110</div><h4 class="serif">Year Timeline</h4><p>The 7344-year timeline on the pyramid’s sloping corners — 8640, 1080 and 10,800</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p111.html"><div class="tag">&#10022; Vertical Distances &middot; Plate 111</div><h4 class="serif">Vertical Distances</h4><p>Vertical Distances in the Great Pyramid — heights from apex, base &amp; bedrock</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p112.html"><div class="tag">&#10022; Sloping &amp; Horizontal Distances &middot; Plate 112</div><h4 class="serif">Sloping &amp; Horizontal Distances</h4><p>Sloping and Horizontal Distances in the Great Pyramid</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p113.html"><div class="tag">&#10022; Lower Chamber Level &middot; Plate 113</div><h4 class="serif">Lower Chamber Level</h4><p>Lower Chamber level — vertical and horizontal distances of the descending passage</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p114.html"><div class="tag">&#10022; Phoenix Chronometry I &middot; Plate 114</div><h4 class="serif">Phoenix Chronometry I</h4><p>Phoenix Chronometry I — passage sums to 5796 = 1902 AD</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p115.html"><div class="tag">&#10022; Phoenix Chronometry II &middot; Plate 115</div><h4 class="serif">Phoenix Chronometry II</h4><p>Phoenix Chronometry II — the Lower Chamber in multiples of 138</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p116.html"><div class="tag">&#10022; Phoenix Chronometry III &middot; Plate 116</div><h4 class="serif">Phoenix Chronometry III</h4><p>Phoenix Chronometry III — Great Step, Antechamber &amp; Upper Chamber</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p117.html"><div class="tag">&#10022; Phoenix Chronometry IV &middot; Plate 117</div><h4 class="serif">Phoenix Chronometry IV</h4><p>Phoenix Chronometry IV — plan of the Upper Chamber &amp; the Chief Cornerstone platform</p><div class="go">ENTER &rarr;</div></a>
+    <a class="feat hud" href="redesign/p118.html"><div class="tag">&#10022; Rejected Cornerstone &middot; Plate 118</div><h4 class="serif">Year Span and the Cornerstone</h4><p>The 6354-year span, 4309 BC to 2046 AD — and the stone the builders rejected</p><div class="go">ENTER &rarr;</div></a><!--/auto-feat-->
   </div>
+  <a class="feat hud" href="redesign/constellation.html" style="display:block;margin-top:16px;text-align:center;background:linear-gradient(160deg,#12203f,#0a1224)"><div class="tag">&#10022; The Constellation &middot; Cross-Map</div><h4 class="serif">How every chart connects</h4><p>An interactive star-map &mdash; click a number or date (138, 552, the Flood, 1135 BC&hellip;) and watch every chart that shares it light up.</p><div class="go">ENTER &rarr;</div></a>
 
-  <h2>Reference</h2>
-  <ul>
-    <li><a href="https://github.com/bradleyhomelinuxnet-prog/phoenix-chronicles-tools/blob/main/docs/Ophis_v9_ReverseEngineering_Report.md">Ophis v9 reverse-engineering report</a></li>
-    <li><a href="https://github.com/bradleyhomelinuxnet-prog/phoenix-chronicles-tools/blob/main/docs/Ophis_v9_DeepDive_Addendum.md">Ophis v9 deep-dive addendum</a></li>
-    <li><a href="https://github.com/bradleyhomelinuxnet-prog/phoenix-chronicles-tools/tree/main/codex">Phoenix CODEX 138 working notes</a></li>
-    <li><a href="https://github.com/bradleyhomelinuxnet-prog/phoenix-chronicles-tools/blob/main/films/README.md">Film production kit</a></li>
-  </ul>
+  <div class="shead"><h3>All 119 Plates</h3><div class="rule"></div></div>
+  <div class="toolbar">
+    <label class="search"><span class="ic">&#9906;</span><input id="q" type="text" placeholder="Search plate number, chart, keyword, or the book text..."></label>
+    <div class="chip on" data-f="all">ALL</div>
+    <div class="chip" data-f="1">CHARTS</div>
+    <div class="chip" data-f="0">TEXT</div>
+    <div class="chip" data-f="star">&#10022; INTERACTIVE</div>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div id="noresult" class="noresult" style="display:none">No plates match &mdash; try a number 1&ndash;119, or &ldquo;chart&rdquo;, &ldquo;flood&rdquo;, &ldquo;138&rdquo;.</div>
 
-  <footer>
-    <a href="https://github.com/bradleyhomelinuxnet-prog/phoenix-chronicles-tools">Source on GitHub</a> ·
-    <a href="https://bradleyhomelinuxnet-prog.github.io/">All projects</a>
-  </footer>
-</main>
-</body>
-</html>
+  <div class="foot">Source: J. M. Breshears, <b>Chronotecture: Lost Science of Prophetic Engineering</b> (2017). Plates 1&ndash;118 reproduce the original unchanged; Plate 119 is an original addition. An interpretive presentation for study.</div>
+</div>
+
+<script src="text/texts.js"></script>
+<script>
+var FLAGS="00000000000011111111111111111100000001111111111100001110001111110000111011000001111111111110000000000000000001111111111";
+var STARS={13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1,21:1,22:1,23:1,24:1,25:1,26:1,27:1,28:1,29:1,30:1,38:1,39:1,40:1,41:1,42:1,43:1,44:1,45:1,46:1,47:1,48:1,53:1,54:1,55:1,59:1,60:1,61:1,62:1,63:1,64:1,69:1,70:1,71:1,73:1,74:1,80:1,81:1,82:1,83:1,84:1,85:1,86:1,87:1,88:1,89:1,90:1,91:1,110:1,111:1,112:1,113:1,114:1,115:1,116:1,117:1,118:1,119:1};
+var KW={13:"chart i pyramid inch calendar 3361 3036 1902 giza course",14:"chart i·b passage conjunct axis 1460 bc 2435 am 3361 pyramid inches 1902 ad great step 2815 casing blocks 365 enoch 1095 3894 144.5 decans hijrah 622 corpus hermeticum flood 2239",15:"chart i·c stonehenge 414 6210 5796 am 1902 ad 4309 bc cursed earth calendar 2070 years 1656 great flood 2239 583 sun darkening philippus 498 abraham 1825 2046 astroid impact giza course countdown",16:"chart id 1902 axis i·d great step ad 5796 am 144x13 1572 supernova nostradamus 330 constantinople 462 nibiru 1440 143 286 52 tunguska 1908 john greaves 1602 2046 impact 2106 6000",17:"chart ie giza course countdown 1902 2106 2448 months 144 bricks i·e",18:"chart ii pyramid inches 3361 3036 325 variance axis conjunct 1460 bc 1135 great step 1700 34 middle chamber 442 ad 4336 am grand gallery 666 990 1656 deluge 2239",19:"iib palindrome great flood 1656 annunaki",20:"iic recursive pyramid timeline 1135 anchor 138 552",21:"chart iii pyramid section axis conjunct 1135 bc 994 1828 3360 great step 1688 5582 am 1902 ad lower chamber 552 seven comets inches",22:"chart iii·b 552 1104 2208 am 1656 552x3 1688 bc comet darkened sun nibiru 792 72x11 732 1344 5239 anunnaki 3000 years 1151 2190 365x6 1314 ad book of jasher 1613 2106 6000",23:"chart iv pyramid inches 3036 1110 1828 302 2760 am 1135 bc axis conjunct 3870 25 5698 1804 ad 5796 1902 2106 6000 floor joint giza course countdown armageddon",29:"vic hijrah palindrome 622 mirror islamic chart vi·c",30:"vid hijrah doublings 622 632 692 711 726 734 islamic chart vi·d",39:"chart viii·b 1480 bc 2415 am mirror 2559 2829 345 208 3300 3330 4309 preadamic world anunnaki 5239 1821 1851 2106 ad",40:"chart ix great pyramid lower chamber floor joint 1699 2001 2045 2207 4146 414 mayan long-count 3114 stonehenge chronoliths 204 courses 666",41:"chart ix·b / ix·c span bars 2001 2045 world trade center alexandrian library 641 1360 720 kublai khan davidson vyse taylor pyramid inch 208 2400 2106",42:"chart x, xi, xii mayan long-count 5200 4146 1054 supernova taurus 1356 casing blocks 1306 1414 1110 3360 252 tetractys mene tekel",43:"chart x·b 1054 ad 4948 am supernova taurus papal split 3000 years 1948 bc abraham 1447 exodus 607 1600 432 622 hijrah 526 dionysius 1798 2106",44:"chart x·c iron empires rome united states 1054 mirror supernova 919 992 1973 2027 2038 2046 asteroid vesuvius 2106",45:"chart xi·b 1356 ad 5250 am multiples of 52 780 624 468 260 156 104 520 552 345 1701 great step 2046 666 tunguska 1908",46:"chart xiii–xvi conjunct 820 4714 al mamoun seth 5250 1356 3706 440 6000 am 2106 666 1440 enoch 3894",47:"chart xiv·b 820 ad 4714 am 758 246 1066 1312 62 1578 catacombs 1080 1620 1820 1900 antikythera 1920 5814 pyramid height",48:"chart xiv·b 1930 ad 5824 am mirror 114 140 160 24 1816 1790 1770 2044 2070 2090 414 tambora aztec ras shamra pluto 820 xiv·c",53:"chart xvii 1776 5670 5814 186 6000 anunnaki ner 600 1962 1261 exodus 3036 1110 666 176 444",61:"chart xix·c 1039 bc 2856 am king david anunnaki 4039 3895 1962 ad 5856 3000 649 368 326 318 1776 2815 2339 2337 great flood 2239 2106 7200",62:"chart xix·d 1998 ad 666 5892 am 108 years 6000 2106 1980 1976 1962 1960 1950 1922 1918 1906 2016 2034 2046 2074 2090 1478 1759 520 239 478 tutankhamen seven comets",63:"chart xx / xxi 583 bc 3312 am 1390 1110 1693 2202 draconian years 6000 2106 ad 994 1386 1624 340 1656 great step eratosthenes",64:"chart xx·b 583 bc 3312 am mirror 85 646 661 1863 2517 2530 2580 1776 1888 552 great flood 2239 nibiru 1998",69:"chart xxii lower chamber 1414 744 670 4146 2052 ad 5946 am 1800 2075 bc 414 4140 6210 4639 4309 anunnaki 1998",70:"chart xxi·b 2046 ad 5940 am 186x11 usa countdown 13th baktun mayan 3113 bc 1776 1902 144 1860 14400 days 240 nibiru 2106",71:"chart xxii·c 2052 ad 108x19 5946 am abaddon eighth king 1998 666x3 54 108 52 520 990 1062 inquisition 2106",73:"chart xxiii 5448 5814 366 186 552 chief cornerstone isaiah 19:19-20 204 courses 808 1110 3036 302 744 -366 6000 am 4261 bc",74:"chart xxiii·b 1554 ad 5448 am 777+777 5814 366 444 490 520 552 2106 6000 2815 bc 4368 solomon's temple 2520 armageddon",80:"chart xxiv upper chamber antechamber grand gallery great step well pit 204 1902 2106 6000 am 2046 7200 6210 990 kennedy 60.96",81:"chart xxv upper chamber antechamber granite leaf triple veil great step measurements 204 330 534 170 126 60.96 lower middle well pit",82:"chart xxvi great step grand gallery 1836 iron empire 1940 1962 104 ad 126 52+52 7920 days 360-day year 22 years key dates",83:"chart xxvii great step chronometer 126 42x3 1902 1944 1986 2028 2022 1440 months 12.6 decans passage conjunct 3360 1945 2005",84:"chart xxviii ceiling block 52 13x4 60.96 1962 1963 1975 1988 2001 2014 2022 60 years 1945 2005 kennedy",85:"chart xxix 2016 great step antechamber 228 114 23 11½ 2005 2028 middle chamber limestone granite joint chronometry",86:"chart xxx granite leaf antechamber great step seven comets 1962 2034 2035 2036 2050 2106 6000 am 72 144 16 p″ first seal",87:"chart xxxi granite leaf seven seals trumpets antechamber 84 p″ 52 2014 2040 2046 2066 2090 2130 24 sk planet phoenix enoch elijah",88:"chart xxxii 270 years 90 p″ 2052 1962 2232 126 sk 14 2014 2028 2042 2056 2070 120th jubilee sixth seal 4309 bc 1776",89:"chart xxxiii wellpit axis 6000 am 2106 stone kingdom sk 102 p″ 34×3 126 204 2232 2436 330 252 2520 36×7 360×7",90:"chart xxxiv geometric chronometry a/b ruler 1902 2106 204 p″ armageddon 6000 annus mundi 92 3.14 288.88 144.44 2014 2060 stone kingdom conclusion",91:"chart xxxv last days stone kingdom giza course countdown 204 1902 2106 6000 am iron empire 70 years apocalypse seven kings 54 330 670 1000 year millennium 4639 bc 2239",110:"foundation of time 7344 8640 1080 864 3456 10800 1296 144x9 8 faces 2815 bc am sloping corner mid-plane pyramis chronicon plan view",111:"vertical distances great pyramid inches 5814 5448 apex present height step 1700 4140 mean 1104 2760 lower chamber 552 width 2070",112:"sloping & horizontal distances great pyramid central axis 4554 1518×3 4532 3360 3361 1836 1546 4146 3036 1110 808",113:"lower chamber level descending passage well pit 1414 1412 1110 906 908 744 576 670 346 324 302 204 162 great step axis floor joint",114:"phoenix chronometry i great pyramid 138 3036 6348 4968 2760 5796 1902 ad 4140 144th course 4554 1518 1380",115:"phoenix chronometry ii lower chamber great pyramid 552 width 138 1070 1162 1414 2484 3036 2070 2760 908",116:"phoenix chronometry iii great step antechamber upper chamber grand gallery 340 126 552 1656 1700 2040 19331040 35020 4140 granite",117:"phoenix chronometry iv plan view upper chamber sarcophagus great step chief cornerstone summit platform 534 412 204 230 1380 846 5448 6000",118:"rejected cornerstone 6354 4309 bc 2046 ad 3927 33 1.618 3927.07 annus mundi nibiru phoenix poleshift i am the door gate of deep sarcophagus 2013",119:"palindrome mirror 138 19 metonic recursive"};
+(function(){
+  var g=document.getElementById('grid'),h='';
+  for(var i=1;i<=119;i++){
+    var ch=FLAGS[i-1], col=ch==='1'?'#ffd15c':'#b98cff', lab=ch==='1'?'Chart':'Text';
+    var st=STARS[i]?1:0, star=st?'<span class="star">&#10022;</span>':'', sc=st?' star':'';
+    var kw=(KW[i]||'')+(ch==='1'?' chart plate':' text page');
+    var pg=('00'+i).slice(-3);
+    h+='<a class="cardp'+sc+'" data-pg="'+i+'" data-chart="'+ch+'" data-star="'+st+'" data-kw="'+kw+'" href="pages/p'+pg+'.html'+(st?'#redesign':'')+'">'
+      +'<div class="thumbwrap"><img loading="lazy" src="'+(STARS[i]?'thumbs-redesign':'thumbs')+'/p'+pg+'.jpg" alt="Plate '+i+'">'
+      +(st?'<span class="orig" data-href="pages/p'+pg+'.html#plate" title="Jason Breshears’ original plate"><img loading="lazy" src="thumbs/p'+pg+'.jpg" alt="Original plate '+i+'"><b>ORIGINAL</b></span>':'')+'</div>'
+      +'<div class="cap"><span class="pg">'+pg+' '+star+'</span><span class="dotc" style="background:'+col+'" title="'+lab+'"></span></div></a>';
+  }
+  g.innerHTML=h;
+  g.addEventListener('click',function(e){var o=e.target.closest('.orig');if(o){e.preventDefault();location.href=o.dataset.href;}});
+  var c=document.getElementById('stars'),x=c.getContext('2d'),w,hh,stars,rings;
+  function si(){w=c.width=innerWidth;hh=c.height=innerHeight;
+    var n=Math.min(260,Math.floor(w*hh/9000));stars=[];for(var k=0;k<n;k++)stars.push({x:Math.random()*w,y:Math.random()*hh,z:Math.random()*.9+.1,t:Math.random()*6.28});
+    rings=[{r:Math.min(w,hh)*.34,a:0},{r:Math.min(w,hh)*.52,a:2}];}
+  function dr(){x.clearRect(0,0,w,hh);x.save();x.translate(w*.72,hh*.28);
+    for(var i=0;i<rings.length;i++){var rg=rings[i];rg.a+=0.0006*(i?-1:1);x.beginPath();x.strokeStyle=i?'#b98cff14':'#4fe3ff18';x.lineWidth=1;x.ellipse(0,0,rg.r,rg.r*.34,rg.a,0,6.2832);x.stroke();}
+    x.restore();
+    for(var j=0;j<stars.length;j++){var s=stars[j];s.t+=0.02*s.z;var tw=.5+.5*Math.sin(s.t);
+      x.beginPath();x.fillStyle='rgba(180,230,255,'+(0.25+0.6*tw*s.z)+')';x.arc(s.x,s.y,s.z*1.6,0,6.2832);x.fill();}
+    requestAnimationFrame(dr);}
+  si();dr();addEventListener('resize',si);
+  setTimeout(function(){[].forEach.call(document.querySelectorAll('.stat .n'),function(el){
+    var to=+el.dataset.to,s=0,step=Math.max(1,Math.round(to/38));
+    var iv=setInterval(function(){s+=step;if(s>=to){s=to;clearInterval(iv);}el.textContent=s;},22);});},650);
+  var io=new IntersectionObserver(function(es){es.forEach(function(e,i){if(e.isIntersecting){e.target.style.transitionDelay=(Math.min(i,8)*30)+'ms';e.target.classList.add('in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -40px 0px'});
+  [].forEach.call(document.querySelectorAll('.cardp'),function(c){io.observe(c);});
+  var mode='all',q='',cards=[].slice.call(document.querySelectorAll('.cardp')),nr=document.getElementById('noresult');
+  function apply(){var shown=0;cards.forEach(function(c){
+    var okF=mode==='all'||(mode==='star'?c.dataset.star==='1':c.dataset.chart===mode);
+    var tx=window.CHRONO_TEXT&&window.CHRONO_TEXT[c.dataset.pg];
+    var okQ=!q||('00'+c.dataset.pg).slice(-3).indexOf(q)>=0||c.dataset.pg===q||c.dataset.kw.indexOf(q)>=0||(q.length>2&&tx&&tx.toLowerCase().indexOf(q)>=0);
+    var vis=okF&&okQ;c.style.display=vis?'':'none';if(vis)shown++;});
+    nr.style.display=shown?'none':'block';}
+  [].forEach.call(document.querySelectorAll('.chip'),function(ch){ch.onclick=function(){
+    [].forEach.call(document.querySelectorAll('.chip'),function(x){x.classList.remove('on');});ch.classList.add('on');mode=ch.dataset.f;apply();};});
+  var qi=document.getElementById('q');
+  qi.addEventListener('input',function(e){q=e.target.value.trim().toLowerCase();apply();});
+  qi.addEventListener('keydown',function(e){if(e.key==='Enter'){var n=+q;if(n>=1&&n<=119)location.href='pages/p'+('00'+n).slice(-3)+'.html'+(STARS[n]?'#redesign':'');}});
+})();
+</script>
+</body></html>
